@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" SchemaVersion="110" RootDocumentID="{AC635665-EC79-407B-B20B-4649785F4BEE}" ParentDocumentID="{AC635665-EC79-407B-B20B-4649785F4BEE}">
+	<Events>
+		<WorkUnit Name="ENNEMIES_WU" ID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" OwnerID="{AC635665-EC79-407B-B20B-4649785F4BEE}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="CHOMPER_WU" ID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}" SchemaVersion="110">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{76215F5B-6765-44C7-B2E2-5568CC338B27}" WorkUnitID="{ED21CDD4-5EDB-4F91-AC9B-0F9AC4348260}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="AMB_WU" ID="{CAFF796F-5097-4652-BD92-7BFD52C46C5B}" PersistMode="Reference"/>
+						<WorkUnit Name="SFX_WU" ID="{8BA87EA0-259A-4CEB-AEF1-5AD2486A8345}" PersistMode="Reference"/>
+						<WorkUnit Name="MC_WU" ID="{96AC13CD-2343-4FF2-A83D-975B3D911E3D}" PersistMode="Reference"/>
+						<WorkUnit Name="MUSIC_WU" ID="{9FDBE066-8DB1-488E-8FCC-3F6CCCB79D44}" PersistMode="Reference"/>
+						<WorkUnit Name="FOLEY_WU" ID="{364A9545-3B12-402A-ADB6-641D56CAAB33}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

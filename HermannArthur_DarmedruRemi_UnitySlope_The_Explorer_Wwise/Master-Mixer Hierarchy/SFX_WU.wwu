@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8BA87EA0-259A-4CEB-AEF1-5AD2486A8345}" SchemaVersion="110" RootDocumentID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}" ParentDocumentID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}">
+	<Busses>
+		<WorkUnit Name="SFX_WU" ID="{8BA87EA0-259A-4CEB-AEF1-5AD2486A8345}" OwnerID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Bus Name="SFX" ID="{037CDDFF-2C60-415C-995E-20527CE6E8F7}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

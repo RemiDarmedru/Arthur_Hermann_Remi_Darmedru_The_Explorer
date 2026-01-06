@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{60F965AA-0488-4F56-B7B1-5ED4CE9240A8}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="FOLEY_WU" ID="{60F965AA-0488-4F56-B7B1-5ED4CE9240A8}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

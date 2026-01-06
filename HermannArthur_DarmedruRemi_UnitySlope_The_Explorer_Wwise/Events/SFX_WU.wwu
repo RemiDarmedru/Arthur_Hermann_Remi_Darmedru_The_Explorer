@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC635665-EC79-407B-B20B-4649785F4BEE}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="SFX_WU" ID="{AC635665-EC79-407B-B20B-4649785F4BEE}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="ENNEMIES_WU" ID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

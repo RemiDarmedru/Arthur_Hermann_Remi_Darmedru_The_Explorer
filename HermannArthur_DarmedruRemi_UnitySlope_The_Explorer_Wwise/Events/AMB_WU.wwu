@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{221C4FD0-058C-476C-AC49-B76CB590541A}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="AMB_WU" ID="{221C4FD0-058C-476C-AC49-B76CB590541A}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

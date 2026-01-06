@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E4163776-1D1D-4DC1-B5C9-EA6C8AF9EF17}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="FOLEY_WU" ID="{E4163776-1D1D-4DC1-B5C9-EA6C8AF9EF17}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
