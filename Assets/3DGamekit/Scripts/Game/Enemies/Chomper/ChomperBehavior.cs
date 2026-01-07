@@ -42,6 +42,13 @@ namespace Gamekit3D
         public RandomAudioPlayer gruntAudio;
         public RandomAudioPlayer deathAudio;
         public RandomAudioPlayer spottedAudio;
+        
+        [Header("Wwise Audio")]
+        public AK.Wwise.Event Play_ChomperVoiceDeath;
+        public AK.Wwise.Event Play_ChomperVoiceAttack;
+        public AK.Wwise.Event Play_ChomperVoiceSpotted;
+        public AK.Wwise.Event Play_ChomperVoiceHit;
+        public GameObject AudioSourceWwise;
 
         protected float m_TimerSinceLostTarget = 0.0f;
 
@@ -71,6 +78,20 @@ namespace Gamekit3D
         /// <summary>
         /// Called by animation events.
         /// </summary>
+        public void HitVoice()
+        {
+            if (AudioSourceWwise != null && Play_ChomperVoiceHit != null)
+            {
+                Play_ChomperVoiceHit.Post(AudioSourceWwise);
+            }
+        }
+        public void AttackVoice()
+        {
+            if (AudioSourceWwise != null && Play_ChomperVoiceAttack != null)
+            {
+                Play_ChomperVoiceAttack.Post(AudioSourceWwise);
+            }
+        }
         public void Grunt ()
         {
             if (gruntAudio != null)
@@ -79,8 +100,10 @@ namespace Gamekit3D
 
         public void Spotted()
         {
-            if (spottedAudio != null)
-                spottedAudio.PlayRandomClip();
+            if (AudioSourceWwise != null && Play_ChomperVoiceSpotted != null)
+            {
+                Play_ChomperVoiceSpotted.Post(AudioSourceWwise);
+            }
         }
 
         protected void OnDisable()
@@ -238,10 +261,11 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashHit);
             controller.animator.SetTrigger(hashThrown);
 
-            //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
-            deathAudio.transform.SetParent(null, true);
-            deathAudio.PlayRandomClip();
-            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+            if (AudioSourceWwise != null && Play_ChomperVoiceDeath != null)
+            {
+                Play_ChomperVoiceDeath.Post(AudioSourceWwise);
+                Debug.Log($"[ChomperVoice] Death joué sur {gameObject.name}");
+            }
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)

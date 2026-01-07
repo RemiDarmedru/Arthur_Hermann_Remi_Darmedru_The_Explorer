@@ -56,13 +56,25 @@
 			<ShortName>AMB_SB</ShortName>
 			<Path>AMB_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{DCB724F9-C653-37CF-0B0B-20F65CFA7D76}">
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{F4F977A5-D5F2-6691-7057-788CE73F6D47}">
 			<ShortName>SFX_SB</ShortName>
 			<Path>SFX_SB.bnk</Path>
 			<Media>
 				<File Id="728141" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_11.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="2393391" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="2883128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="8264117" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Hit_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="8725363" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_02.wav</ShortName>
@@ -80,9 +92,25 @@
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_09.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="144285257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166708724" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Idle_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
 				<File Id="195243656" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_08.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="207820361" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="248830895" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Hit_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="258794545" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_10.wav</ShortName>
@@ -96,21 +124,65 @@
 					<ShortName>FS_Chomper_Run_Grass_OS_M_04.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="297408373" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="313145675" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_01.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338287839" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Idle_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="354881991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_11.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_11_10C4C929.wem</CachePath>
 				</File>
+				<File Id="383705014" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399690406" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Idle_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="400220423" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_04.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="445202296" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="464235127" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Hit_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="472914576" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Idle_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="511743388" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Death_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="527255614" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="532677665" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_07.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="568833669" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Hit_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="568997807" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Death_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="572995788" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_12.wav</ShortName>
@@ -120,6 +192,18 @@
 					<ShortName>FS_Chomper_Run_Grass_OS_M_03.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_03_10C4C929.wem</CachePath>
 				</File>
+				<File Id="615347865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="625149423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667914301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Idle_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="681810190" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_10.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_10_10C4C929.wem</CachePath>
@@ -128,17 +212,61 @@
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_07.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="721150043" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="762447622" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="785104848" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_06.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="813564227" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="825460426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="827053954" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="827713731" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Death_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="866477729" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_05.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="876288650" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Hit_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="883016035" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="885679426" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Hit_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="912015984" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_09.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="917542417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Idle_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="942912290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Death_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="957412271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_02.wav</ShortName>
@@ -148,9 +276,25 @@
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_01.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="997648726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Death_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1038792725" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_06.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1061426490" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Attack_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1069908598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Death_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1070465072" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_06_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -196,6 +340,66 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2408534138" Name="Play_ChomperVoiceAttack" DurationType="OneShot" DurationMin="1.0416964" DurationMax="2.2801945">
+					<MediaRefs>
+						<MediaRef Id="2393391"/>
+						<MediaRef Id="2883128"/>
+						<MediaRef Id="297408373"/>
+						<MediaRef Id="625149423"/>
+						<MediaRef Id="762447622"/>
+						<MediaRef Id="1061426490"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="907198288" Name="Play_ChomperVoiceDeath" DurationType="OneShot" DurationMin="0.9443788" DurationMax="2.9284">
+					<MediaRefs>
+						<MediaRef Id="511743388"/>
+						<MediaRef Id="568997807"/>
+						<MediaRef Id="827713731"/>
+						<MediaRef Id="942912290"/>
+						<MediaRef Id="997648726"/>
+						<MediaRef Id="1069908598"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3590848876" Name="Play_ChomperVoiceGrunt" DurationType="OneShot" DurationMin="0.90641135" DurationMax="1.5780752">
+					<MediaRefs>
+						<MediaRef Id="383705014"/>
+						<MediaRef Id="445202296"/>
+						<MediaRef Id="527255614"/>
+						<MediaRef Id="721150043"/>
+						<MediaRef Id="827053954"/>
+						<MediaRef Id="883016035"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3605852193" Name="Play_ChomperVoiceHit" DurationType="OneShot" DurationMin="0.41854388" DurationMax="0.92040586">
+					<MediaRefs>
+						<MediaRef Id="8264117"/>
+						<MediaRef Id="248830895"/>
+						<MediaRef Id="464235127"/>
+						<MediaRef Id="568833669"/>
+						<MediaRef Id="876288650"/>
+						<MediaRef Id="885679426"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3764481148" Name="Play_ChomperVoiceIdle" DurationType="OneShot" DurationMin="0.77237725" DurationMax="1.9714736">
+					<MediaRefs>
+						<MediaRef Id="166708724"/>
+						<MediaRef Id="338287839"/>
+						<MediaRef Id="399690406"/>
+						<MediaRef Id="472914576"/>
+						<MediaRef Id="667914301"/>
+						<MediaRef Id="917542417"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="625416977" Name="Play_ChomperVoiceSpotted" DurationType="OneShot" DurationMin="0.6130539" DurationMax="1.5108244">
+					<MediaRefs>
+						<MediaRef Id="144285257"/>
+						<MediaRef Id="207820361"/>
+						<MediaRef Id="615347865"/>
+						<MediaRef Id="813564227"/>
+						<MediaRef Id="825460426"/>
+						<MediaRef Id="1070465072"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="876169933" Name="GROMPER_FOOTSTEPS_MATERIAL">
@@ -212,5 +416,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FC82E3D0-EC6C-B974-81C6-2740DDFF9AAF}</FileHash>
+	<FileHash>{F3E8E9CF-76A0-DB2A-FC8A-89BF23D2A7CE}</FileHash>
 </SoundBanksInfo>

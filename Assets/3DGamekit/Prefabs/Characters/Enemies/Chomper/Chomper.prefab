@@ -3524,6 +3524,7 @@ GameObject:
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
   - component: {fileID: 47440744372342963}
+  - component: {fileID: 5604270606468645580}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
@@ -3543,10 +3544,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3247079540111900555}
   - {fileID: 4700803547110376}
   - {fileID: 4230541153036796}
   - {fileID: 4667632706155090}
+  - {fileID: 3247079540111900555}
   - {fileID: 4558756240328940}
   - {fileID: 4998087950247418}
   m_Father: {fileID: 0}
@@ -3602,6 +3603,27 @@ MonoBehaviour:
   gruntAudio: {fileID: 114720182369786316}
   deathAudio: {fileID: 114771674042626142}
   spottedAudio: {fileID: 114643955118306876}
+  Play_ChomperVoiceDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1dfcfe7b9a49b744fb673ea3e26503cd,
+      type: 2}
+  Play_ChomperVoiceAttack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 71a991bc30528484ea9d317e0033fbbc,
+      type: 2}
+  Play_ChomperVoiceSpotted:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5ec7ea831b1cc6b459436d770cdc06b8,
+      type: 2}
+  Play_ChomperVoiceHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9d3ea2cf8891f7c40b3c2437095e2c6a,
+      type: 2}
+  AudioSourceWwise: {fileID: 8756261538370134523}
 --- !u!114 &114700785457422906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3614,13 +3636,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0149b5ab8f608c943b260125ac76d875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 1
+  maxHitPoints: 3
   invulnerabiltyTime: 0
   hitAngle: 360
   hitForwardRotation: 360
   OnDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 11500000, guid: 93e09843a5c1c344f9a06661baac93cb, type: 3}
+        m_TargetAssemblyTypeName: UnityEngine.Object, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Death
+          m_BoolArgument: 0
+        m_CallState: 2
   OnReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -3724,6 +3758,36 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 9463fbbc432c35e4e9d839c0aad40275,
       type: 2}
   AudioSource: {fileID: 8756261538370134523}
+--- !u!114 &5604270606468645580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: decd879de05de6e4393ac77fa42abe0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Play_ChomperVoiceIdle:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 52257ee02c49bc14b9fbad44c1a7107b,
+      type: 2}
+  Play_ChomperVoiceGrunt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 45fb849f01abd7e4daead34e3f6f61dd,
+      type: 2}
+  Play_ChomperVoiceDeath:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1dfcfe7b9a49b744fb673ea3e26503cd,
+      type: 2}
+  AudioSource: {fileID: 8756261538370134523}
+  idleMinDelay: 5
+  idleMaxDelay: 12
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0

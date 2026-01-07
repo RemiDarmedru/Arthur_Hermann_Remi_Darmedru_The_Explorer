@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="FOOTSTEPS" ID="{DD841A90-AA88-4DC4-B077-0829A0A6F131}" ShortID="82905408">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+						<Property Name="RadiusMax" Type="Real64" Value="30"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,18 +21,18 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>1.08163</XPos>
+											<XPos>3.24489</XPos>
 											<YPos>-0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>9.42931</XPos>
+											<XPos>28.28793</XPos>
 											<YPos>-200</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>30</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -59,13 +59,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>2.15929</XPos>
+											<XPos>6.47787</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
 											<SegmentShape>SCurve</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>10</XPos>
+											<XPos>30</XPos>
 											<YPos>100</YPos>
 											<Flags>37</Flags>
 										</Point>

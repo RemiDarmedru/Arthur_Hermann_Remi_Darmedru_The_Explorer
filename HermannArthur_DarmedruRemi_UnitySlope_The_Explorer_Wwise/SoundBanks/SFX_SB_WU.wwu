@@ -13,7 +13,13 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_ChomperVoiceGrunt" ID="{222BF6A4-5BE8-40A1-AC11-6B50C0AF0ACC}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ChomperVoiceAttack" ID="{64F9F7E6-BAFC-4869-BFBF-AC7F113C3302}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ChomperVoiceHit" ID="{195FC007-036F-49C9-8CB2-909414D19D18}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ChomperVoiceIdle" ID="{95FC044D-EE7D-4AB5-8000-FA0CA3E0F883}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperFootsteps" ID="{F9C5F746-26A7-4C80-8761-B55435075335}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ChomperVoiceDeath" ID="{3F48B2EC-1430-4E33-983D-7F6EC3A6EA7F}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ChomperVoiceSpotted" ID="{734C4B9F-CAA0-4E49-AA57-B840110A5D7D}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
