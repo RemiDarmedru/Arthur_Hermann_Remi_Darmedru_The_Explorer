@@ -34,6 +34,46 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{BA8FEEB3-7FB6-4A8E-9D51-5534DC92525C}" ShortID="391426682">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHOMPER_VOICE_ATTACK" ID="{65FF0F0C-1E99-442E-AB7D-FF68B62884EA}" WorkUnitID="{FF00875C-5E22-4D33-B18B-2880CAC42301}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2531CF6C-D176-445D-8868-3139EA17362C}" ShortID="964562893">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHOMPER_VOICE_GRUNT" ID="{743F6544-305C-4A39-9A11-97D6FABE584C}" WorkUnitID="{FF00875C-5E22-4D33-B18B-2880CAC42301}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68F6EFD0-94DB-4C9D-A905-4B76B4C904CB}" ShortID="37087644">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHOMPER_VOICE_IDLE" ID="{6E05FF67-E482-4F53-8C82-93964C83CF86}" WorkUnitID="{FF00875C-5E22-4D33-B18B-2880CAC42301}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B6DD8C3D-50AA-4248-9B42-51B20D64E4AE}" ShortID="1059072047">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHOMPER_VOICE_SPOTTED" ID="{DAABC534-4022-44D3-8BCC-7F829338C129}" WorkUnitID="{FF00875C-5E22-4D33-B18B-2880CAC42301}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_ChomperVoiceGrunt" ID="{222BF6A4-5BE8-40A1-AC11-6B50C0AF0ACC}">

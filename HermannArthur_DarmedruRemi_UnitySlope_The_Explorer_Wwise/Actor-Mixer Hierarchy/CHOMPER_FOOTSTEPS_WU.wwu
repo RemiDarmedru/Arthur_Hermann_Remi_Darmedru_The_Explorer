@@ -62,7 +62,7 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="GROMPER_FOOTSTEPS_STATE" ID="{FB0FF6C1-8A2A-475C-B403-7EA7A846A867}" WorkUnitID="{D749DEB4-C055-47E8-A0F6-88286C5D84D1}"/>
+									<ObjectRef Name="CHOMPER_FOOTSTEPS_STATE" ID="{FB0FF6C1-8A2A-475C-B403-7EA7A846A867}" WorkUnitID="{D749DEB4-C055-47E8-A0F6-88286C5D84D1}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -364,6 +364,9 @@
 											</ModifierList>
 										</Property>
 										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{9464F5D2-B843-425B-B27C-48E03BD3BE89}">

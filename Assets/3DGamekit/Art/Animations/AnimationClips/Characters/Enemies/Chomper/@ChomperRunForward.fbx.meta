@@ -677,28 +677,28 @@ ModelImporter:
       events:
       - time: 0.04663212
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.158719
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.6632124
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.81347156
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1

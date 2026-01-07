@@ -701,28 +701,28 @@ ModelImporter:
       events:
       - time: 0.003223207
         functionName: PlayFootsteps
-        data: 
+        data: WALK
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.20704189
         functionName: PlayFootsteps
-        data: 
+        data: WALK
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.48912168
         functionName: PlayFootsteps
-        data: 
+        data: WALK
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.68331987
         functionName: PlayFootsteps
-        data: 
+        data: WALK
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 0

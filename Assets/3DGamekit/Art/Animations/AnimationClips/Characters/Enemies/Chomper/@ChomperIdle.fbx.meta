@@ -694,7 +694,7 @@ ModelImporter:
         messageOptions: 0
       - time: 0.3155106
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
@@ -708,14 +708,14 @@ ModelImporter:
         messageOptions: 0
       - time: 0.4179126
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.41952732
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
@@ -729,56 +729,56 @@ ModelImporter:
         messageOptions: 0
       - time: 0.43248886
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.627027
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.65704864
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.68692034
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.6968577
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.9456523
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.97402126
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
       - time: 0.9926766
         functionName: PlayFootsteps
-        data: 
+        data: RUN
         objectReferenceParameter: {instanceID: 0}
         floatParameter: 0
         intParameter: 1

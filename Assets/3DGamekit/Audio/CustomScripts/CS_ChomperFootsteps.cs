@@ -7,18 +7,14 @@ public class Footsteps : MonoBehaviour
 {
     public AK.Wwise.Event Play_ChomperFootsteps;
     public GameObject AudioSource;
+    public GameObject Chomper;
     
-    public void PlayFootsteps()
+    public void PlayFootsteps(AnimationEvent animationEvent)
     {
-        Debug.Log("PlayFootsteps appelé !");
-        
-        if (AudioSource == null)
+        if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
-            Debug.LogError("AudioSource est NULL !");
-            return;
+            AkSoundEngine.SetSwitch("CHOMPER_FOOTSTEPS_STATE", animationEvent.stringParameter, AudioSource);
         }
-        
-        Debug.Log("Post sur : " + AudioSource.name);
         Play_ChomperFootsteps.Post(AudioSource);
     }
 }
