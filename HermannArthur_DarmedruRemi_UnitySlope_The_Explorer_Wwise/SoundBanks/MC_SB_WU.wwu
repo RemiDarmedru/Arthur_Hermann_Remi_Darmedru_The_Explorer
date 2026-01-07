@@ -12,7 +12,9 @@
 						<Property Name="Color" Type="int16" Value="9"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="MC_WU" ID="{48498BD3-9263-4365-ACBC-16EDE7D87AAD}" WorkUnitID="{48498BD3-9263-4365-ACBC-16EDE7D87AAD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
