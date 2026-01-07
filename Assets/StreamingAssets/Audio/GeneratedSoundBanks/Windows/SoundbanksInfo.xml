@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../../../../../HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise</ProjectRoot>
+		<SourceFilesRoot>../../../../../HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise/.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>../../../../../HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1316598174" Type="User" Language="SFX" Hash="{99EA3EFC-8492-43A0-0CB4-D56F760BF54E}">
+			<ShortName>FOLEY_SB</ShortName>
+			<Path>FOLEY_SB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6D620579-8265-A746-4379-D2B23618D2D3}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="247557814" Name="FOLEY"/>
+				<Bus Id="393239870" Name="SFX"/>
+				<Bus Id="1117531639" Name="AMB"/>
+				<Bus Id="1685527061" Name="MC"/>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+				<Bus Id="3991942870" Name="MUSIC"/>
+			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="876169933" Name="GROMPER_FOOTSTEPS_MATERIAL">
+					<Switches>
+						<Switch Id="4248645337" Name="GRASS"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3374188093" Name="GROMPER_FOOTSTEPS_STATE">
+					<Switches>
+						<Switch Id="712161704" Name="RUN"/>
+						<Switch Id="2108779966" Name="WALK"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{C2B5DD97-99B4-C208-8BBE-CD109BB7726A}">
+			<ShortName>MC_SB</ShortName>
+			<Path>MC_SB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2996874622" Type="User" Language="SFX" Hash="{0E32BCB4-F4B5-82B8-30CF-31A8F0FA41A4}">
+			<ShortName>MUSIC_SB</ShortName>
+			<Path>MUSIC_SB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3256182613" Type="User" Language="SFX" Hash="{CD472CF4-CF47-3E6E-B2E3-610291AAF304}">
+			<ShortName>AMB_SB</ShortName>
+			<Path>AMB_SB.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{2C141189-A462-69DD-6FAA-B194F8EAFAAB}">
+			<ShortName>SFX_SB</ShortName>
+			<Path>SFX_SB.bnk</Path>
+			<Media>
+				<File Id="728141" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_11.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="8725363" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_02.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="27317500" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_08.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="104043597" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_05.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="106535191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_09.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="195243656" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_08.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="258794545" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_10.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="285063322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_03.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="288882509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_04.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313145675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_01.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="354881991" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_11.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="400220423" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_04.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="532677665" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_07.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="572995788" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_12.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602091717" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_03.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="681810190" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_10.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="711432393" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_07.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="785104848" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_06.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866477729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_05.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="912015984" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_09.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="957412271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_02.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="983699859" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Walk_Grass_OS_M_01.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1038792725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FS_Chomper_Run_Grass_OS_M_06.wav</ShortName>
+					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1956494941" Name="Play_ChomperFootsteps" DurationType="OneShot" DurationMin="0.054542635" DurationMax="0.7424086">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="876169933" Id="4248645337" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3374188093" Id="712161704"/>
+									<MediaRefs>
+										<MediaRef Id="104043597"/>
+										<MediaRef Id="195243656"/>
+										<MediaRef Id="258794545"/>
+										<MediaRef Id="288882509"/>
+										<MediaRef Id="313145675"/>
+										<MediaRef Id="354881991"/>
+										<MediaRef Id="532677665"/>
+										<MediaRef Id="572995788"/>
+										<MediaRef Id="602091717"/>
+										<MediaRef Id="912015984"/>
+										<MediaRef Id="957412271"/>
+										<MediaRef Id="1038792725"/>
+									</MediaRefs>
+								</SwitchContainer>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="3374188093" Id="2108779966" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="728141"/>
+										<MediaRef Id="8725363"/>
+										<MediaRef Id="27317500"/>
+										<MediaRef Id="106535191"/>
+										<MediaRef Id="285063322"/>
+										<MediaRef Id="400220423"/>
+										<MediaRef Id="681810190"/>
+										<MediaRef Id="711432393"/>
+										<MediaRef Id="785104848"/>
+										<MediaRef Id="866477729"/>
+										<MediaRef Id="983699859"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="876169933" Name="GROMPER_FOOTSTEPS_MATERIAL">
+					<Switches>
+						<Switch Id="4248645337" Name="GRASS"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3374188093" Name="GROMPER_FOOTSTEPS_STATE">
+					<Switches>
+						<Switch Id="712161704" Name="RUN"/>
+						<Switch Id="2108779966" Name="WALK"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{196DFEEC-E36A-CD90-42F8-612EDAAF94A8}</FileHash>
+</SoundBanksInfo>

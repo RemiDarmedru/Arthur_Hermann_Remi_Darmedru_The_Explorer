@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise" GUID="{3EE9BD05-673D-409E-93C5-4E6885C4BBCE}" Generator="2022.1.17.8543"/>
+	<CacheRoot>../../../../../HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Windows" GUID="{ED6E41A2-FAA1-4F73-B9E6-6B4026830778}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="."/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{EF281DAC-85F7-474D-A154-D9634A140EF0}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{8469F25A-D7D0-A74A-BA87-89919682860A}</FileHash>
+</ProjectInfo>

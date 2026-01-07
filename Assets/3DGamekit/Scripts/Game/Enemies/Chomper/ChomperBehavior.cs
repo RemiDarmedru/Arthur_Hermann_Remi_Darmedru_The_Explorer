@@ -1,5 +1,6 @@
 ﻿using Gamekit3D.Message;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -67,10 +68,7 @@ namespace Gamekit3D
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
         void PlayStep(int frontFoot)
         {
-            if (frontStepAudio != null && frontFoot == 1)
-                frontStepAudio.PlayRandomClip();
-            else if (backStepAudio != null && frontFoot == 0)
-                backStepAudio.PlayRandomClip ();
+            AkSoundEngine.PostEvent("Play_ChomperFootsteps", gameObject);
         }
 
         /// <summary>
