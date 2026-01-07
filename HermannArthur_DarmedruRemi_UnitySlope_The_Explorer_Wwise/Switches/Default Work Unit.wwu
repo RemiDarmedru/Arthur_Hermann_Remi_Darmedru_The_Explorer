@@ -12,7 +12,7 @@
 						<Switch Name="GRASS" ID="{4AA44C30-94BD-4657-8331-EF2DE48B486E}"/>
 					</ChildrenList>
 				</SwitchGroup>
-				<SwitchGroup Name="GROMPER_FOOTSTEPS_STATE" ID="{FB0FF6C1-8A2A-475C-B403-7EA7A846A867}">
+				<SwitchGroup Name="CHOMPER_FOOTSTEPS_STATE" ID="{FB0FF6C1-8A2A-475C-B403-7EA7A846A867}">
 					<PropertyList>
 						<Property Name="Color" Type="int16" Value="10"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>

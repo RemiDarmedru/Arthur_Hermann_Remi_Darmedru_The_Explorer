@@ -3758,6 +3758,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 9463fbbc432c35e4e9d839c0aad40275,
       type: 2}
   AudioSource: {fileID: 8756261538370134523}
+  Chomper: {fileID: 1722084123150156}
 --- !u!114 &5604270606468645580
 MonoBehaviour:
   m_ObjectHideFlags: 0
