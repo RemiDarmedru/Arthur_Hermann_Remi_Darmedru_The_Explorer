@@ -13,7 +13,7 @@ public class Footsteps : MonoBehaviour
     {
         if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
-            AkSoundEngine.SetSwitch("CHOMPER_FOOTSTEPS_STATE", animationEvent.stringParameter, Chomper);
+            AkSoundEngine.SetSwitch("CHOMPER_FOOTSTEPS_STATE", animationEvent.stringParameter, AudioSource);
         }
         Play_ChomperFootsteps.Post(AudioSource);
     }

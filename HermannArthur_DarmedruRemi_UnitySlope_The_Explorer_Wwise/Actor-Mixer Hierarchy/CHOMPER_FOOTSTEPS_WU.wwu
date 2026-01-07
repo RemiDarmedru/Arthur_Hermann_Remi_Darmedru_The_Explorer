@@ -351,9 +351,6 @@
 								<RandomSequenceContainer Name="CHOMPER_RUN_GRASS" ID="{D31A31AF-A757-406A-A570-D44ED929A6B3}" ShortID="113231104">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-2400</Value>
-											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
 													<Modifier Name="" ID="{F6CE971F-A3AE-4FAD-9AFF-A1D7978DB3A2}">
@@ -368,7 +365,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>9</Value>
+												<Value>-12</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
