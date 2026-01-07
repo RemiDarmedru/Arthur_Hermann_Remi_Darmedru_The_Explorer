@@ -47,11 +47,35 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="MC_FS_Walk_Grass" ID="{0EA1E582-12D9-453C-AD43-AF32086C6C69}" ShortID="456487484">
 											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{42AE2FB2-662A-4E0B-A5EA-6B44711FEBB9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-10</Value>
 													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C5CFE208-AB5A-4918-982D-4910D996D832}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
 												</Property>
 											</PropertyList>
 											<ReferenceList>
@@ -329,11 +353,56 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="MC_FS_Run_Grass" ID="{7EF07F9B-38EC-4BB3-A83B-F6DC80A800E6}" ShortID="90170563">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1B73E17F-659B-45F2-B981-8FF611BA315B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C25B64DF-4DB3-474F-B3A5-656E4C63978E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
 											<GroupingBehavior>
 												<ItemRef Name="MC_FS_Walk_Grass" ID="{0EA1E582-12D9-453C-AD43-AF32086C6C69}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="MC_FS_Run_Grass" ID="{7EF07F9B-38EC-4BB3-A83B-F6DC80A800E6}"/>
 											</GroupingBehavior>
 										</GroupingBehaviorList>
 										<GroupingList>
@@ -341,6 +410,12 @@
 												<SwitchRef Name="WALK" ID="{DDE73E87-8A4F-45E1-B118-22E1A9AB90EF}"/>
 												<ItemList>
 													<ItemRef Name="MC_FS_Walk_Grass" ID="{0EA1E582-12D9-453C-AD43-AF32086C6C69}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="RUN" ID="{265E7ED2-03CB-4010-8455-DB2259C2E382}"/>
+												<ItemList>
+													<ItemRef Name="MC_FS_Run_Grass" ID="{7EF07F9B-38EC-4BB3-A83B-F6DC80A800E6}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>
