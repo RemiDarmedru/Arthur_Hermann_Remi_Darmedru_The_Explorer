@@ -66,10 +66,7 @@ namespace Gamekit3D
         /// Called by animation events.
         /// </summary>
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
-        void PlayStep(int frontFoot)
-        {
-            AkSoundEngine.PostEvent("Play_ChomperFootsteps", gameObject);
-        }
+        
 
         /// <summary>
         /// Called by animation events.

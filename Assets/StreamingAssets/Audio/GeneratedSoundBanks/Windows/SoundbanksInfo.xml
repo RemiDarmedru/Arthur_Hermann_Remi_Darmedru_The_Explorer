@@ -56,7 +56,7 @@
 			<ShortName>AMB_SB</ShortName>
 			<Path>AMB_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{2C141189-A462-69DD-6FAA-B194F8EAFAAB}">
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{FAA344A2-7F1C-08C7-F609-334DEAA48D16}">
 			<ShortName>SFX_SB</ShortName>
 			<Path>SFX_SB.bnk</Path>
 			<Media>
@@ -212,5 +212,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{196DFEEC-E36A-CD90-42F8-612EDAAF94A8}</FileHash>
+	<FileHash>{4C2E069E-611B-52AB-AF3F-484D6A55A0D5}</FileHash>
 </SoundBanksInfo>
