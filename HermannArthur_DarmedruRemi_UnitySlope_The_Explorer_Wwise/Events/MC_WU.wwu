@@ -6,6 +6,19 @@
 				<Property Name="Color" Type="int16" Value="9"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_MC_FOOTSTEPS" ID="{0D2B4077-F3AE-4E5E-99C1-1644B368F6DD}">
+					<ChildrenList>
+						<Action Name="" ID="{E1DDB74E-7219-4283-BA16-AEBB81DF6E5D}" ShortID="559324819">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOOTSTEPS" ID="{17578A2C-2714-4875-BEDF-4B4C322D4A76}" WorkUnitID="{F07CC0FD-1AAF-4495-8590-68C5B7EFFFB4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

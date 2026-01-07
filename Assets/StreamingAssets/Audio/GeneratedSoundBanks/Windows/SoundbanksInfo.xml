@@ -31,7 +31,18 @@
 				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
 			<SwitchGroups>
+				<SwitchGroup Id="718483783" Name="MC_FOOTSTEPS_STATE">
+					<Switches>
+						<Switch Id="712161704" Name="RUN"/>
+						<Switch Id="2108779966" Name="WALK"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="876169933" Name="GROMPER_FOOTSTEPS_MATERIAL">
+					<Switches>
+						<Switch Id="4248645337" Name="GRASS"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3210335123" Name="MC_FOOTSTEPS_MATERIAL">
 					<Switches>
 						<Switch Id="4248645337" Name="GRASS"/>
 					</Switches>
@@ -44,9 +55,100 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{C2B5DD97-99B4-C208-8BBE-CD109BB7726A}">
+		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{221A8B4F-446A-8D7C-8DC0-D91D3D917E24}">
 			<ShortName>MC_SB</ShortName>
 			<Path>MC_SB.bnk</Path>
+			<Media>
+				<File Id="45740052" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_07.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="120112542" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_02.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="137905983" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_05.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="329966351" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_04.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="425858722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_01.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="432002479" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_08.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="456248290" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_11.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="598773325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_10.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670958813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_09.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="760579845" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_12.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="778574936" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_03.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1042134769" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FS_MC_Walk_Grass_06.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_06_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2368357634" Name="Play_MC_FOOTSTEPS" DurationType="OneShot" DurationMin="0.26666668" DurationMax="0.3">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="4248645337" Default="true"/>
+							<Children>
+								<SwitchContainer>
+									<SwitchValue GroupType="Switch" GroupId="718483783" Id="2108779966" Default="true"/>
+									<MediaRefs>
+										<MediaRef Id="45740052"/>
+										<MediaRef Id="120112542"/>
+										<MediaRef Id="137905983"/>
+										<MediaRef Id="329966351"/>
+										<MediaRef Id="425858722"/>
+										<MediaRef Id="432002479"/>
+										<MediaRef Id="456248290"/>
+										<MediaRef Id="598773325"/>
+										<MediaRef Id="670958813"/>
+										<MediaRef Id="760579845"/>
+										<MediaRef Id="778574936"/>
+										<MediaRef Id="1042134769"/>
+									</MediaRefs>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="718483783" Name="MC_FOOTSTEPS_STATE">
+					<Switches>
+						<Switch Id="712161704" Name="RUN"/>
+						<Switch Id="2108779966" Name="WALK"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3210335123" Name="MC_FOOTSTEPS_MATERIAL">
+					<Switches>
+						<Switch Id="4248645337" Name="GRASS"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="2996874622" Type="User" Language="SFX" Hash="{0E32BCB4-F4B5-82B8-30CF-31A8F0FA41A4}">
 			<ShortName>MUSIC_SB</ShortName>
@@ -56,7 +158,7 @@
 			<ShortName>AMB_SB</ShortName>
 			<Path>AMB_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{DCB724F9-C653-37CF-0B0B-20F65CFA7D76}">
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{FAA344A2-7F1C-08C7-F609-334DEAA48D16}">
 			<ShortName>SFX_SB</ShortName>
 			<Path>SFX_SB.bnk</Path>
 			<Media>
@@ -212,5 +314,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{FC82E3D0-EC6C-B974-81C6-2740DDFF9AAF}</FileHash>
+	<FileHash>{427A9E7E-C392-97A8-77EB-4BC0C2E33D6A}</FileHash>
 </SoundBanksInfo>

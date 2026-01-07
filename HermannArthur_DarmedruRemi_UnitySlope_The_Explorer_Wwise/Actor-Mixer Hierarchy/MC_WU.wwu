@@ -6,6 +6,21 @@
 				<Property Name="Color" Type="int16" Value="8"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="MC_AM" ID="{B78EDA3A-FADD-4252-9307-8F445DF7D8B4}" ShortID="295727928">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="FOOTSTEPS_WU" ID="{F07CC0FD-1AAF-4495-8590-68C5B7EFFFB4}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="MC_WU" ID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="8"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SwitchGroup Name="MC_FOOTSTEPS_STATE" ID="{FC3AB21A-44EE-466E-B799-79F05E077DA5}">
+					<ChildrenList>
+						<Switch Name="RUN" ID="{265E7ED2-03CB-4010-8455-DB2259C2E382}"/>
+						<Switch Name="WALK" ID="{DDE73E87-8A4F-45E1-B118-22E1A9AB90EF}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="MC_FOOTSTEPS_MATERIAL" ID="{558082E1-3DA2-4820-92B7-90EAFE507981}">
+					<ChildrenList>
+						<Switch Name="GRASS" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
