@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" SchemaVersion="110" RootDocumentID="{AC635665-EC79-407B-B20B-4649785F4BEE}" ParentDocumentID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}">
 	<Events>
-		<WorkUnit Name="CHOMPER_WU" ID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" OwnerID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" PersistMode="Nested"/>
+		<WorkUnit Name="CHOMPER_WU" ID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" OwnerID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_ChomperFootsteps" ID="{F9C5F746-26A7-4C80-8761-B55435075335}">
+					<ChildrenList>
+						<Action Name="" ID="{232ECF8B-ECC5-46B6-BF1B-1A6E782F9659}" ShortID="502340916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHOMPER_FOOTSTEPS" ID="{90DE3B2E-EBB7-4EA5-90B4-036C4AA4DF7A}" WorkUnitID="{A7B38114-71CD-4E32-8C0C-196D27B67942}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

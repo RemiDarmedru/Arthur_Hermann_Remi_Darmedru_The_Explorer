@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D749DEB4-C055-47E8-A0F6-88286C5D84D1}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D749DEB4-C055-47E8-A0F6-88286C5D84D1}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D749DEB4-C055-47E8-A0F6-88286C5D84D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="GROMPER_FOOTSTEPS_MATERIAL" ID="{0B80E319-26EC-4616-B688-CCD28C684ED4}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="GRASS" ID="{4AA44C30-94BD-4657-8331-EF2DE48B486E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="GROMPER_FOOTSTEPS_STATE" ID="{FB0FF6C1-8A2A-475C-B403-7EA7A846A867}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="WALK" ID="{07B85E71-5FB5-4BB6-B718-3AC8FE8F2FDF}"/>
+						<Switch Name="RUN" ID="{151D9F27-A25C-4579-B344-876565D55627}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

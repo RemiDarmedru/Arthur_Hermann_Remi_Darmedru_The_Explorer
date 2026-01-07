@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CE289304-87BA-494C-A6A7-331486C2F2EC}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="MC_SB_WU" ID="{CE289304-87BA-494C-A6A7-331486C2F2EC}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="9"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="MC_SB" ID="{6B430592-43B3-4DDB-9713-4A8EDBA87FDE}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
