@@ -6181,7 +6181,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: b86bedba3016387469ab3ac227a45992, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17871,7 +17870,7 @@ TrailRenderer:
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 639d9c94783f42b4990cb155dff912ab, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -22153,7 +22152,7 @@ Transform:
   - {fileID: 4031617287498508}
   - {fileID: 4991372638326318514}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95065152071237234
 Animator:
@@ -22214,7 +22213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0149b5ab8f608c943b260125ac76d875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 5
+  maxHitPoints: 100
   invulnerabiltyTime: 5
   hitAngle: 360
   hitForwardRotation: 360
@@ -22378,6 +22377,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 2b5e92d8f30de2e46b33226fda782f11,
       type: 2}
   AudioSource: {fileID: 0}
+  Ellen: {fileID: 1991219941496362}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0
