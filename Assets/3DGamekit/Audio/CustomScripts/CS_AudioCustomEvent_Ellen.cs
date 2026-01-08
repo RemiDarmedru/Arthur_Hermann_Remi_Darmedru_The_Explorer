@@ -14,6 +14,7 @@ public class CS_AudioCustomEvent_Ellen : MonoBehaviour
         if (animationEvent.animatorClipInfo.weight > 0.5f)
         {
             AkSoundEngine.SetSwitch("MC_FOOTSTEPS_STATE", animationEvent.stringParameter, AudioSource);
+            Debug.Log(animationEvent.stringParameter);
             MC_FT.Post(AudioSource);
         }
     }
