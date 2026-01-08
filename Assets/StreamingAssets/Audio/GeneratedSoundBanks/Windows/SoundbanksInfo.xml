@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{9E7E351B-A191-E956-BE48-662CECAD7830}">
+		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{4BDCBBE3-A979-1F72-E2BE-533C8E6F7BFB}">
 			<ShortName>MC_SB</ShortName>
 			<Path>MC_SB.bnk</Path>
 			<Media>
@@ -681,5 +681,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B30D98E5-EDC9-EF0F-54D2-E5361EF6AA17}</FileHash>
+	<FileHash>{0C02CA2D-7B56-81C2-C771-BACB4E5CC18D}</FileHash>
 </SoundBanksInfo>

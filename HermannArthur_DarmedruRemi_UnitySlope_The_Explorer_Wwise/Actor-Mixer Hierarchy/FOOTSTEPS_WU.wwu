@@ -132,6 +132,13 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="FS_MC_Walk_Grass_03" ID="{5F2FD51D-AF65-4878-B9A8-7F17157158A1}" ShortID="811422438">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>12</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
