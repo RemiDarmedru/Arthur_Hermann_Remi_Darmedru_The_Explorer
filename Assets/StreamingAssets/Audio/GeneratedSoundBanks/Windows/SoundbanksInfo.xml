@@ -55,7 +55,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{4BDCBBE3-A979-1F72-E2BE-533C8E6F7BFB}">
+		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{9E7E351B-A191-E956-BE48-662CECAD7830}">
 			<ShortName>MC_SB</ShortName>
 			<Path>MC_SB.bnk</Path>
 			<Media>
@@ -321,7 +321,7 @@
 			<ShortName>AMB_SB</ShortName>
 			<Path>AMB_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{4F2B6972-9152-1F52-AC52-36EB52DDCDE1}">
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{F3160A3E-21DB-5564-DF46-0A0F8F735C15}">
 			<ShortName>SFX_SB</ShortName>
 			<Path>SFX_SB.bnk</Path>
 			<Media>
@@ -681,5 +681,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{659DBC9C-99BD-FFB3-01C6-EE88981E77DD}</FileHash>
+	<FileHash>{0439D2F4-E1FE-EABB-D436-79992F922CBA}</FileHash>
 </SoundBanksInfo>
