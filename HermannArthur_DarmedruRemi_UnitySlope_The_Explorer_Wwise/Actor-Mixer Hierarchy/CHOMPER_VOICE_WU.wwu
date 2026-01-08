@@ -212,9 +212,6 @@
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-18</Value>
-							</ValueList>
 							<ModifierList>
 								<ModifierInfo>
 									<Modifier Name="" ID="{B22BC846-1C1E-4B1B-8763-84DFA74E945B}">
