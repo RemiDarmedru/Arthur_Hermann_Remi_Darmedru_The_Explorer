@@ -22152,7 +22152,7 @@ Transform:
   - {fileID: 4031617287498508}
   - {fileID: 4991372638326318514}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95065152071237234
 Animator:
@@ -22376,8 +22376,16 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2b5e92d8f30de2e46b33226fda782f11,
       type: 2}
+  MC_JUMP:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fb7899f3d29d4214389d6144187a0a2c,
+      type: 2}
+  MC_LAND:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   AudioSource: {fileID: 0}
-  Ellen: {fileID: 1991219941496362}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

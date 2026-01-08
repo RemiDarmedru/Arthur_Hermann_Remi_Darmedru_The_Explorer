@@ -18,6 +18,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MC_FOLEY_JUMP" ID="{45305CD9-8155-455C-8A31-5689E2BC4520}">
+					<ChildrenList>
+						<Action Name="" ID="{1702807B-4B73-4B47-B0F4-E6D1B336A4C8}" ShortID="4317545">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOLEY_JUMP" ID="{7C942E09-5358-48FD-AEF5-3CDD0D2D8744}" WorkUnitID="{22ABC91C-EB15-4779-8527-A90D3ADD623C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MC_FOLEY_LAND" ID="{86B99ABB-8BA4-4838-93BE-4AEAACE0CA68}">
+					<ChildrenList>
+						<Action Name="" ID="{2CC64B27-13B3-4169-85CE-3AD55E240A30}" ShortID="958224548">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MC_FOLEY_LAND" ID="{A0C0E47F-0D3C-450F-92CA-6BA4A868DE15}" WorkUnitID="{22ABC91C-EB15-4779-8527-A90D3ADD623C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

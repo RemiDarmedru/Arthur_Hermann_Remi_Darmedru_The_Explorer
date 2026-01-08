@@ -18,6 +18,7 @@
 					</ReferenceList>
 					<ChildrenList>
 						<WorkUnit Name="FOOTSTEPS_WU" ID="{F07CC0FD-1AAF-4495-8590-68C5B7EFFFB4}" PersistMode="Reference"/>
+						<WorkUnit Name="JUMP_LAND_WU" ID="{22ABC91C-EB15-4779-8527-A90D3ADD623C}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
