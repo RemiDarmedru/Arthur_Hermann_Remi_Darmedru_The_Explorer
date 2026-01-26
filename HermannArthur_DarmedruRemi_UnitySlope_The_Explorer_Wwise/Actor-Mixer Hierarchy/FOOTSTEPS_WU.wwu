@@ -19,7 +19,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="GRASS" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+									<ObjectRef Name="Grass" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
@@ -86,272 +86,6 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="FS_MC_Walk_Grass_01" ID="{AB42B54D-EC5A-44EE-8B4C-E80E0099C5DA}" ShortID="724699846">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_01" ID="{08AB4515-09D4-4AEB-9AAC-C2D5F37F7261}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="425858722"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_01" ID="{08AB4515-09D4-4AEB-9AAC-C2D5F37F7261}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_02" ID="{E5F26324-58E2-43E4-A81A-63AA6DFDA6FF}" ShortID="688916268">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_02" ID="{0F92618B-597C-4101-AC60-F3DA0997B6EB}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="120112542"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_02" ID="{0F92618B-597C-4101-AC60-F3DA0997B6EB}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_03" ID="{5F2FD51D-AF65-4878-B9A8-7F17157158A1}" ShortID="811422438">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_03" ID="{5A34632D-B40C-4695-A19B-BAE79F8C903A}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="778574936"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_03" ID="{5A34632D-B40C-4695-A19B-BAE79F8C903A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_04" ID="{BE024E2D-443A-40D7-9A3E-EF3E5D190405}" ShortID="844342919">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_04" ID="{CE73D49A-A8F6-4FFD-8AA4-82BD490E00C6}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="329966351"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_04" ID="{CE73D49A-A8F6-4FFD-8AA4-82BD490E00C6}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_05" ID="{D668DFE4-0318-4771-93EE-2C26ED31A22E}" ShortID="533929316">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_05" ID="{09F3B321-893C-4594-BC64-821225CDC737}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_05.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="137905983"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_05" ID="{09F3B321-893C-4594-BC64-821225CDC737}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_06" ID="{65A01565-54C4-4DE0-9028-ECAD729110D3}" ShortID="715902206">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_06" ID="{6E92D5A0-ACB1-4D4C-88FF-4825FEA1722D}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_06.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1042134769"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_06" ID="{6E92D5A0-ACB1-4D4C-88FF-4825FEA1722D}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_07" ID="{E0A8A1F2-1AA3-45C4-948F-91A5D492496D}" ShortID="714566548">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_07" ID="{6E255E5F-8F9E-4058-A1A2-BD3ADF76AB03}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_07.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="45740052"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_07" ID="{6E255E5F-8F9E-4058-A1A2-BD3ADF76AB03}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_08" ID="{F65845F9-3D2B-49EB-8773-0F732C6AFA39}" ShortID="100290381">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_08" ID="{1D317694-7CFB-46E4-800B-5DDF75F8EE64}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_08.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="432002479"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_08" ID="{1D317694-7CFB-46E4-800B-5DDF75F8EE64}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_09" ID="{3AB669CE-83CB-4BC5-B034-424E976FC8B0}" ShortID="613222150">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_09" ID="{A3972B78-077F-47DD-B2E5-77F5353FCF56}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_09.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="670958813"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_09" ID="{A3972B78-077F-47DD-B2E5-77F5353FCF56}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_10" ID="{F9891BEF-61A1-4B5D-9C11-5ED59809F503}" ShortID="982334574">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_10" ID="{B3E7F54B-6617-4C08-A552-B7EDD899AF52}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="598773325"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_10" ID="{B3E7F54B-6617-4C08-A552-B7EDD899AF52}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_11" ID="{085C2C6F-2104-4DFB-90C0-2B746B6B9A58}" ShortID="98560018">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_11" ID="{93CB3919-025B-4A7D-8888-C390E9464261}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_11.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="456248290"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_11" ID="{93CB3919-025B-4A7D-8888-C390E9464261}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Walk_Grass_12" ID="{3DCC6247-F31E-42A4-A834-C4CE01032338}" ShortID="1073051212">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Walk_Grass_12" ID="{DAE294EA-44AD-4692-A1FD-142409491503}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Walk_Grass_12.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="760579845"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Walk_Grass_12" ID="{DAE294EA-44AD-4692-A1FD-142409491503}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="MC_FS_Run_Grass" ID="{7EF07F9B-38EC-4BB3-A83B-F6DC80A800E6}" ShortID="90170563">
 											<PropertyList>
@@ -394,272 +128,6 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
 												</Reference>
 											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="FS_MC_Run_Grass_01" ID="{AFF3B0AE-879A-4FEB-BE7A-C7DA66BEDAC2}" ShortID="935518112">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_01" ID="{ED79DB57-9484-4202-90C7-65141849C243}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="93518507"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_01" ID="{ED79DB57-9484-4202-90C7-65141849C243}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_02" ID="{803335EB-0DA8-4A0F-9183-07745703E1D4}" ShortID="903845056">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_02" ID="{686849FA-8248-46EC-B918-2F3089CDFA58}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="1054234764"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_02" ID="{686849FA-8248-46EC-B918-2F3089CDFA58}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_03" ID="{CC9EF699-12C3-40C2-AEDF-F27834949F83}" ShortID="810087220">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_03" ID="{28BB7354-A707-4417-8C4F-78AA2EEF0053}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="50366281"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_03" ID="{28BB7354-A707-4417-8C4F-78AA2EEF0053}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_04" ID="{32ED1751-7AED-4298-96C2-6C6A890F6221}" ShortID="918385530">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_04" ID="{E998E542-DCA8-47A3-A797-5C8EDE13EDA0}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_04.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="929245396"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_04" ID="{E998E542-DCA8-47A3-A797-5C8EDE13EDA0}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_05" ID="{6943AE9C-5140-4324-A7AF-4A0BD68D7793}" ShortID="668938813">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_05" ID="{6E4D9621-FF49-47FC-BE18-B53DF98BC2EE}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_05.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="384415296"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_05" ID="{6E4D9621-FF49-47FC-BE18-B53DF98BC2EE}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_06" ID="{B22A475B-73FD-447B-BACA-5E8974A84993}" ShortID="89913832">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_06" ID="{9D29A962-D4AC-4B1D-BA03-134E298F1C53}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_06.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="581771030"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_06" ID="{9D29A962-D4AC-4B1D-BA03-134E298F1C53}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_07" ID="{773DEEC4-A617-4A3D-9DEF-CB4B27C434CF}" ShortID="81261813">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_07" ID="{183E5348-C9BA-4CA9-BDB9-84736DD3CBF7}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_07.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="435270570"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_07" ID="{183E5348-C9BA-4CA9-BDB9-84736DD3CBF7}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_08" ID="{2148B17D-9723-47CB-A4CD-8F470C513F85}" ShortID="753045784">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_08" ID="{F1AD7627-3B2C-48F2-8D7E-23C857B9F8B8}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_08.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="666440984"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_08" ID="{F1AD7627-3B2C-48F2-8D7E-23C857B9F8B8}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_09" ID="{B2F2534B-C46F-47FC-AE46-1066FC6254C5}" ShortID="76733050">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_09" ID="{F3C0D80F-33E6-4847-8FFE-3408054118EA}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_09.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="918978267"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_09" ID="{F3C0D80F-33E6-4847-8FFE-3408054118EA}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_10" ID="{78EF0A69-3638-4E63-ABDA-C88F12CD2FA5}" ShortID="209035728">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_10" ID="{4CCFB464-8C14-4A69-AAAE-DA17EEF41894}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_10.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="328226189"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_10" ID="{4CCFB464-8C14-4A69-AAAE-DA17EEF41894}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_11" ID="{BBAC1425-C97A-4173-AAF3-E3DB52A36564}" ShortID="643766971">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_11" ID="{AB37F7A1-8090-478D-A59F-3530E8C7440A}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_11.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="960925204"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_11" ID="{AB37F7A1-8090-478D-A59F-3530E8C7440A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="FS_MC_Run_Grass_12" ID="{D85137D0-7BD0-411F-A5D0-33DD285327B9}" ShortID="464716289">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="FS_MC_Run_Grass_12" ID="{B21387DE-2FA2-41D7-A9BB-53A699BFF3D5}">
-															<Language>SFX</Language>
-															<AudioFile>SFX\MC\FS_MC_Run_Grass_12.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="34469416"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="FS_MC_Run_Grass_12" ID="{B21387DE-2FA2-41D7-A9BB-53A699BFF3D5}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
@@ -687,18 +155,1086 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
+								<SwitchContainer Name="MC_FOOTSTEPS_Rock" ID="{2EA0D84D-A045-4340-A6B7-395D39A62BCD}" ShortID="573186990">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="WALK" ID="{DDE73E87-8A4F-45E1-B118-22E1A9AB90EF}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="MC_FOOTSTEPS_STATE" ID="{FC3AB21A-44EE-466E-B799-79F05E077DA5}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="MC_FS_Walk_Rock" ID="{0E4D2AAA-17F4-416F-9035-02295D0C3D28}" ShortID="312998741">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{61B2B11B-C7A0-4A51-A52B-24B2DA032FFB}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A143C086-CAEC-47C8-A9FE-C5404781666A}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FS_MC_Walk_Rock_01" ID="{3732961D-81B0-4C0F-9A6B-7C1AC7948D63}" ShortID="265172423">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_01" ID="{55B72FE4-3727-45B8-9D3D-385C85ACA079}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="815968240"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_01" ID="{55B72FE4-3727-45B8-9D3D-385C85ACA079}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_02" ID="{54BCBF49-8842-461D-83E6-ED1D900FE3B8}" ShortID="828941052">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_02" ID="{E92C45E3-51D0-42AA-ADBA-AB99D2657878}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="84111535"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_02" ID="{E92C45E3-51D0-42AA-ADBA-AB99D2657878}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_03" ID="{C6B5C24E-C97A-4D52-AA12-5697A859D054}" ShortID="179230426">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_03" ID="{2118E488-8CE3-40DC-98D4-349479E01FFC}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="80360255"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_03" ID="{2118E488-8CE3-40DC-98D4-349479E01FFC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_04" ID="{16D7359F-05B2-40FE-BE66-70E56F36F6AF}" ShortID="823415154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_04" ID="{363CAA9A-87B6-4860-9B06-B42CD190E80F}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="447922631"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_04" ID="{363CAA9A-87B6-4860-9B06-B42CD190E80F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_05" ID="{B8421240-2A2D-4154-8F51-3C4A5B6B7E5E}" ShortID="581274340">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_05" ID="{3B8A8CD8-E704-4343-B924-D37ED5AE1350}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="953180856"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_05" ID="{3B8A8CD8-E704-4343-B924-D37ED5AE1350}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_06" ID="{9F5A89DE-A89E-40A9-A42D-F946DC81B50C}" ShortID="868634961">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_06" ID="{90921C90-FFBD-4A56-97C7-76B89E1502A9}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="380630915"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_06" ID="{90921C90-FFBD-4A56-97C7-76B89E1502A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_07" ID="{1DA8A582-46FF-44CC-A4C9-22BB3C97179D}" ShortID="109843882">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_07" ID="{CAE7B8BF-D631-4DDE-AB23-B147348BF8CF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="252484370"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_07" ID="{CAE7B8BF-D631-4DDE-AB23-B147348BF8CF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_08" ID="{A91083AC-F52D-46BC-8906-D51C2A65D51A}" ShortID="218314334">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_08" ID="{C50E9A6D-7B33-4129-A795-09EDF0FBB577}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="643560212"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_08" ID="{C50E9A6D-7B33-4129-A795-09EDF0FBB577}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_09" ID="{1C60D1E1-4718-47B4-BDA2-EBE8747FA32F}" ShortID="186755334">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_09" ID="{A80BB0CE-B342-4E5C-A347-5A0DB3AF28A3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="941856788"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_09" ID="{A80BB0CE-B342-4E5C-A347-5A0DB3AF28A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_10" ID="{4983C5D3-2D95-4A22-A90C-94B44A93B9F4}" ShortID="142714453">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_10" ID="{E2634143-2D3F-43C4-86C4-FF82A344ECEF}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="924784691"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_10" ID="{E2634143-2D3F-43C4-86C4-FF82A344ECEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_11" ID="{3B781C16-C3DE-48A4-818D-638A5C01D0F2}" ShortID="894220912">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_11" ID="{FC470C50-A5A2-48B5-950F-4E78BE0C5A2A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="475973886"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_11" ID="{FC470C50-A5A2-48B5-950F-4E78BE0C5A2A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Rock_12" ID="{D1CFB36C-FEE9-40F4-A52F-F91F029884E7}" ShortID="930458441">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Rock_12" ID="{4EF5115A-5A95-455C-B62B-FAFA77105A96}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Rock_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="500740923"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Rock_12" ID="{4EF5115A-5A95-455C-B62B-FAFA77105A96}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="MC_FS_Run_Rock" ID="{F28B6119-ABAE-4685-8D73-06C53CF48834}" ShortID="682882822">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E10DF0A0-EF08-4CCC-86C6-5DB268114CE0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B2BD4C41-DC9F-4FB2-99C2-A2749435F15F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FS_MC_Run_Rock_01" ID="{B7138337-FE97-47B2-9B5A-55DD5BE0AB8E}" ShortID="400697795">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_01" ID="{F2BB80CC-FEBC-4F00-8007-0BD76A83E913}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="359458635"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_01" ID="{F2BB80CC-FEBC-4F00-8007-0BD76A83E913}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_02" ID="{5CB89174-1073-42B6-8F5E-DAA49783811C}" ShortID="829729484">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_02" ID="{ED4576F9-A005-471B-BC03-2B07403E33C5}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="805112531"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_02" ID="{ED4576F9-A005-471B-BC03-2B07403E33C5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_03" ID="{7E2731CD-26D3-4E6F-B3CF-5C9ADD52D66E}" ShortID="1054934933">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_03" ID="{E2AC2CF3-C54C-4B3A-8960-3436F0A8BABE}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="518727509"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_03" ID="{E2AC2CF3-C54C-4B3A-8960-3436F0A8BABE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_04" ID="{EB71E201-5B8B-41C5-B9CE-873B835CB936}" ShortID="953929785">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_04" ID="{F92B7C89-CE4D-4845-82D1-2FBDCCE5ECF4}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="445480074"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_04" ID="{F92B7C89-CE4D-4845-82D1-2FBDCCE5ECF4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_05" ID="{0A5DC4A5-9B3A-46E4-BD25-9988D57B627B}" ShortID="1025171500">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_05" ID="{92A4BE13-BE17-4A4B-9F67-5B596A27AEE8}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="545082929"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_05" ID="{92A4BE13-BE17-4A4B-9F67-5B596A27AEE8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_06" ID="{69646D0B-BDBB-477D-BCD4-241BA3876148}" ShortID="509213475">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_06" ID="{D2612741-2847-4D98-BBC8-4EB02958B0B2}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="926921333"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_06" ID="{D2612741-2847-4D98-BBC8-4EB02958B0B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_07" ID="{95F14ACE-BA00-49DF-8C3A-B0750F1614AB}" ShortID="1066744918">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_07" ID="{1881596F-B0FE-48CC-A1B2-3BC8A0525BCD}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1019945728"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_07" ID="{1881596F-B0FE-48CC-A1B2-3BC8A0525BCD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_08" ID="{47FBB704-2642-4874-861C-D41A55D7C129}" ShortID="339330432">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_08" ID="{973B88EF-CA9C-462C-AD22-918396374BE7}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="469112808"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_08" ID="{973B88EF-CA9C-462C-AD22-918396374BE7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_09" ID="{C13ED164-1E96-424C-9FAC-7B326F3A0F67}" ShortID="394435927">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_09" ID="{6F620598-5637-4821-8D6B-A67BEA67C991}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="175476260"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_09" ID="{6F620598-5637-4821-8D6B-A67BEA67C991}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_10" ID="{0BD0363E-277C-4E7E-867B-DFFBFF75651C}" ShortID="698530471">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_10" ID="{F0E91EA0-C73A-44D8-B0D6-4047487B4049}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="330177039"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_10" ID="{F0E91EA0-C73A-44D8-B0D6-4047487B4049}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_11" ID="{F9D09FC7-1292-4DC9-AF23-26F03B39B5C5}" ShortID="62093862">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_11" ID="{243841C1-3A46-4C76-8429-7A691F249A12}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="28931344"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_11" ID="{243841C1-3A46-4C76-8429-7A691F249A12}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Run_Rock_12" ID="{AC5120FF-E177-49E3-BCBF-7FFDC64605E3}" ShortID="852496842">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Run_Rock_12" ID="{23E46369-4182-421F-AB3E-766C6002B048}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Run_Rock_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="590687709"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Run_Rock_12" ID="{23E46369-4182-421F-AB3E-766C6002B048}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="MC_FS_Run_Rock" ID="{F28B6119-ABAE-4685-8D73-06C53CF48834}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="MC_FS_Walk_Rock" ID="{0E4D2AAA-17F4-416F-9035-02295D0C3D28}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="WALK" ID="{DDE73E87-8A4F-45E1-B118-22E1A9AB90EF}"/>
+												<ItemList>
+													<ItemRef Name="MC_FS_Walk_Rock" ID="{0E4D2AAA-17F4-416F-9035-02295D0C3D28}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="RUN" ID="{265E7ED2-03CB-4010-8455-DB2259C2E382}"/>
+												<ItemList>
+													<ItemRef Name="MC_FS_Run_Rock" ID="{F28B6119-ABAE-4685-8D73-06C53CF48834}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="MC_FOOTSTEPS_Mud" ID="{4828DC83-09DC-4339-901C-61D512DBBE2E}" ShortID="95776392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="WALK" ID="{DDE73E87-8A4F-45E1-B118-22E1A9AB90EF}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="MC_FOOTSTEPS_STATE" ID="{FC3AB21A-44EE-466E-B799-79F05E077DA5}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="MC_FS_Walk_Mud" ID="{82203193-C3DB-49A6-AC5A-D5D5F097D99D}" ShortID="979980693">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{A730C4AD-711E-45C5-AE5F-0E77822FED6F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{FCAE9A45-4E04-4C35-8767-8440A88F4958}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FS_MC_Walk_Mud_01" ID="{B3954CE1-26CC-4DA2-9A92-C87994D5FA87}" ShortID="294389266">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_01" ID="{60B2BA0C-7D51-400E-A893-1A901F6FA525}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="676486654"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_01" ID="{60B2BA0C-7D51-400E-A893-1A901F6FA525}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_02" ID="{51B1243A-5CDC-4E53-9094-584671860EE6}" ShortID="793229986">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_02" ID="{414F39E6-972D-4897-A411-ACC2667FA4DB}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="207737068"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_02" ID="{414F39E6-972D-4897-A411-ACC2667FA4DB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_03" ID="{6D01A9AE-8F6B-4189-B596-862FBD648BF1}" ShortID="28919911">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_03" ID="{AFFD6CC0-9CBC-4D70-8944-232177768796}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="646732103"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_03" ID="{AFFD6CC0-9CBC-4D70-8944-232177768796}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_04" ID="{2FCA2CB3-87E9-4368-8A07-FCCA6B25A407}" ShortID="524027403">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_04" ID="{20E2FCA3-00FA-4717-AA27-4DC84038396A}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="158251660"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_04" ID="{20E2FCA3-00FA-4717-AA27-4DC84038396A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_05" ID="{49AE9A84-BA8F-4C58-82EF-39251B2014F0}" ShortID="965378894">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_05" ID="{520506A4-8F2E-48FD-A42C-F51D5EB5CEAA}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="315604016"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_05" ID="{520506A4-8F2E-48FD-A42C-F51D5EB5CEAA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_06" ID="{3AFD111D-8EF9-43E1-A56C-B2CAFACFB891}" ShortID="347549284">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_06" ID="{12F5F1AF-2A60-43F4-AABC-DCDA66FB6666}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="585535759"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_06" ID="{12F5F1AF-2A60-43F4-AABC-DCDA66FB6666}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_07" ID="{2CE74462-CC9D-43A8-BB3D-88206747BCAD}" ShortID="948627903">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_07" ID="{3B3EF4CB-8FEC-4B55-AA72-BAB4E1D4DF2B}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="560901259"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_07" ID="{3B3EF4CB-8FEC-4B55-AA72-BAB4E1D4DF2B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_08" ID="{E5540A06-FCFF-405D-8432-19BB01BD5A5A}" ShortID="9717551">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_08" ID="{AC172727-7BF4-4E05-A6F1-E50AFBC8D9D3}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="406429632"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_08" ID="{AC172727-7BF4-4E05-A6F1-E50AFBC8D9D3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_09" ID="{2BF22484-2932-4F14-8623-961E016D8600}" ShortID="557359380">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_09" ID="{44A7E488-75A0-4DA1-A73A-541609D56337}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="308988161"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_09" ID="{44A7E488-75A0-4DA1-A73A-541609D56337}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_10" ID="{0E27CBC2-D2D7-4AC1-9333-E174B4026CD8}" ShortID="715403368">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_10" ID="{D5AA452E-5B18-4ACC-A18B-FB54D13449FE}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="197691500"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_10" ID="{D5AA452E-5B18-4ACC-A18B-FB54D13449FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_11" ID="{F621CEBB-A814-439C-8A1A-EA6C9712B2A1}" ShortID="517100582">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_11" ID="{F31E0A39-1F94-4A52-A393-349BC9BA1042}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="513505413"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_11" ID="{F31E0A39-1F94-4A52-A393-349BC9BA1042}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FS_MC_Walk_Mud_12" ID="{AA1D98BC-C120-4CFD-8D7B-6E8A28CC9B20}" ShortID="354634589">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FS_MC_Walk_Mud_12" ID="{13F1C6A9-6D79-45A4-B696-D7033E9F1BB0}">
+															<Language>SFX</Language>
+															<AudioFile>SFX\MC\FS_MC_Walk_Mud_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="351591146"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FS_MC_Walk_Mud_12" ID="{13F1C6A9-6D79-45A4-B696-D7033E9F1BB0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="MC_FS_Run_Mud" ID="{FBAF5FF7-F3C0-4E87-AB28-A928C3407ACC}" ShortID="19809925">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3813CC64-6FEF-4B69-9DD6-121C3EC69CB8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="6"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{BD6EEAD9-458E-423A-BE4F-BD5C155C785D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+												</Reference>
+											</ReferenceList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="MC_FS_Walk_Mud" ID="{82203193-C3DB-49A6-AC5A-D5D5F097D99D}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="MC_FS_Run_Mud" ID="{FBAF5FF7-F3C0-4E87-AB28-A928C3407ACC}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="WALK" ID="{DDE73E87-8A4F-45E1-B118-22E1A9AB90EF}"/>
+												<ItemList>
+													<ItemRef Name="MC_FS_Walk_Mud" ID="{82203193-C3DB-49A6-AC5A-D5D5F097D99D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="RUN" ID="{265E7ED2-03CB-4010-8455-DB2259C2E382}"/>
+												<ItemList>
+													<ItemRef Name="MC_FS_Run_Mud" ID="{FBAF5FF7-F3C0-4E87-AB28-A928C3407ACC}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
+										<ItemRef Name="MC_FOOTSTEPS_Rock" ID="{2EA0D84D-A045-4340-A6B7-395D39A62BCD}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
 										<ItemRef Name="MC_FOOTSTEPS_Grass" ID="{68468C73-F8C7-4291-A36D-360CE9A5B8B2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="MC_FOOTSTEPS_Mud" ID="{4828DC83-09DC-4339-901C-61D512DBBE2E}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="GRASS" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}"/>
+										<SwitchRef Name="Grass" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}"/>
 										<ItemList>
 											<ItemRef Name="MC_FOOTSTEPS_Grass" ID="{68468C73-F8C7-4291-A36D-360CE9A5B8B2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Rock" ID="{5483B37D-99DC-4389-8116-FB72A7599F20}"/>
+										<ItemList>
+											<ItemRef Name="MC_FOOTSTEPS_Rock" ID="{2EA0D84D-A045-4340-A6B7-395D39A62BCD}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{83655D87-277D-441F-BE7C-2900B3FBB40B}"/>
+										<ItemList>
+											<ItemRef Name="MC_FOOTSTEPS_Mud" ID="{4828DC83-09DC-4339-901C-61D512DBBE2E}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
