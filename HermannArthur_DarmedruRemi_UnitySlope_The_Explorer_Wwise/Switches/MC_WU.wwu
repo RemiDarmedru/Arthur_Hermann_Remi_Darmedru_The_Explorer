@@ -15,7 +15,9 @@
 				</SwitchGroup>
 				<SwitchGroup Name="MC_FOOTSTEPS_MATERIAL" ID="{558082E1-3DA2-4820-92B7-90EAFE507981}">
 					<ChildrenList>
-						<Switch Name="GRASS" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}"/>
+						<Switch Name="Grass" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}"/>
+						<Switch Name="Mud" ID="{83655D87-277D-441F-BE7C-2900B3FBB40B}"/>
+						<Switch Name="Rock" ID="{5483B37D-99DC-4389-8116-FB72A7599F20}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
