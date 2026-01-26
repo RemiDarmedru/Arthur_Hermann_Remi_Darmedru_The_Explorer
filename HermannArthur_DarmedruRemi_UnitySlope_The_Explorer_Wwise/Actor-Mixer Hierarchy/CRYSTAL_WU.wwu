@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{63CACA40-1E77-4D11-831F-2FF06866399C}" SchemaVersion="110" RootDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" ParentDocumentID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}">
+	<AudioObjects>
+		<WorkUnit Name="CRYSTAL_WU" ID="{63CACA40-1E77-4D11-831F-2FF06866399C}" OwnerID="{6A938BFE-1CF6-44AD-B90B-F18BA35CC57A}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="CRYSTAL_AM" ID="{90D2E392-E479-4A56-8A9A-116CFB18E618}" ShortID="884685238">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="CRYSTAL_ACTIVATE" ID="{BD001B5C-D652-4C0B-AF24-E3E5B9CC4F94}" ShortID="1052356536">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{267BA5EB-6ABA-4831-9E4A-F1D31D814FC0}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="51"/>
+													<Property Name="Min" Type="Real64" Value="-51"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GLOBAL_ATT" ID="{F8C7EB83-ADDD-47BA-8293-B492E518F0F5}" WorkUnitID="{D8FFF7A4-DA6B-4A6D-A0EF-F6B53A355409}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Crystal_Activate_ST" ID="{5C0BEFA5-7D7B-493A-8D11-A7A44B450D3D}" ShortID="744894581">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Crystal_Activate_ST" ID="{0E03AF23-28CA-4F85-87A4-75603C93459F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Crystal_Activate_ST.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="25907967"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Crystal_Activate_ST" ID="{0E03AF23-28CA-4F85-87A4-75603C93459F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

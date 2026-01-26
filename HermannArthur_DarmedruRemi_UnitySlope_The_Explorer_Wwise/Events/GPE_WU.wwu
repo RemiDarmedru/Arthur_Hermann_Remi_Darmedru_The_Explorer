@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" SchemaVersion="110" RootDocumentID="{AC635665-EC79-407B-B20B-4649785F4BEE}" ParentDocumentID="{AC635665-EC79-407B-B20B-4649785F4BEE}">
+	<Events>
+		<WorkUnit Name="GPE_WU" ID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" OwnerID="{AC635665-EC79-407B-B20B-4649785F4BEE}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Stop_SwordIdle" ID="{4DB75105-FE0F-41B9-A148-F0C3D016A0C8}">
+					<ChildrenList>
+						<Action Name="" ID="{13637FAE-7E25-49E8-8BC0-E8FE30F3C9AC}" ShortID="924856224">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SWORD_IDLE" ID="{0B25AB1D-E944-48F7-BE82-61FC68C0694F}" WorkUnitID="{9159B4DA-4CFB-4715-B73C-6997A11D1D71}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwordIdle" ID="{E6B0AC6C-CCD0-46BD-B0C5-AD021CB757E6}">
+					<ChildrenList>
+						<Action Name="" ID="{F7E26BFE-F1B8-4BDE-A33A-9A72AB0B34DB}" ShortID="825063671">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SWORD_IDLE" ID="{0B25AB1D-E944-48F7-BE82-61FC68C0694F}" WorkUnitID="{9159B4DA-4CFB-4715-B73C-6997A11D1D71}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SwordTake" ID="{2757B188-9A65-4ACF-AF71-39BAA733C141}">
+					<ChildrenList>
+						<Action Name="" ID="{6C14E069-41C7-4960-8551-27A943DDF944}" ShortID="570815548">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SWORD_TAKE" ID="{812315FE-6B58-4754-81B4-6C6D092797D2}" WorkUnitID="{9159B4DA-4CFB-4715-B73C-6997A11D1D71}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ChestOpen" ID="{363B19A3-5D26-44B1-B821-92CA7B533C04}">
+					<ChildrenList>
+						<Action Name="" ID="{5C878CCD-98CD-4A96-9561-593A08B3C9E1}" ShortID="666933026">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CHEST_OPEN" ID="{4C28428C-AD02-4510-A09C-B0E0380A2980}" WorkUnitID="{F1BE485B-4143-48B7-A654-02D4BD22413C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CrystalActivate" ID="{8743FCD5-331A-4D32-A021-38B24B7D94BC}">
+					<ChildrenList>
+						<Action Name="" ID="{3DE00B55-B6E2-49C7-9596-E28538572660}" ShortID="11728899">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CRYSTAL_ACTIVATE" ID="{BD001B5C-D652-4C0B-AF24-E3E5B9CC4F94}" WorkUnitID="{63CACA40-1E77-4D11-831F-2FF06866399C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_DoorOpen" ID="{2661E644-7749-4B11-89FC-04CFA72A8695}">
+					<ChildrenList>
+						<Action Name="" ID="{DB1008A2-E9DA-4B8C-861B-096A665EFFCC}" ShortID="608751349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DOOR_OPEN" ID="{09FDAFEA-9836-4539-A642-84DEE0AF3BF5}" WorkUnitID="{57CC5A12-6400-475A-BB58-82C173F3638F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

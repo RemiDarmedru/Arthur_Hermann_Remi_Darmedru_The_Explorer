@@ -321,7 +321,7 @@
 			<ShortName>AMB_SB</ShortName>
 			<Path>AMB_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{F3160A3E-21DB-5564-DF46-0A0F8F735C15}">
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{BF31CA14-4DE1-EB93-E788-33BCDF384768}">
 			<ShortName>SFX_SB</ShortName>
 			<Path>SFX_SB.bnk</Path>
 			<Media>
@@ -345,9 +345,17 @@
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_02.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="25907967" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Crystal_Activate_ST.wav</ShortName>
+					<CachePath>SFX/SFX_Crystal_Activate_ST_10C4C929.wem</CachePath>
+				</File>
 				<File Id="27317500" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_08.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="100798765" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Door_Open_ST.wav</ShortName>
+					<CachePath>SFX/SFX_Door_Open_ST_10C4C929.wem</CachePath>
 				</File>
 				<File Id="104043597" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_05.wav</ShortName>
@@ -356,6 +364,10 @@
 				<File Id="106535191" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Walk_Grass_OS_M_09.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="129508183" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>FX_Sword_Idle_LP_ST.wav</ShortName>
+					<CachePath>SFX/FX_Sword_Idle_LP_ST_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="144285257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_04.wav</ShortName>
@@ -404,6 +416,10 @@
 				<File Id="354881991" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>FS_Chomper_Run_Grass_OS_M_11.wav</ShortName>
 					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365421460" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Sword_Take_ST_01.wav</ShortName>
+					<CachePath>SFX/SFX_Sword_Take_ST_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="383705014" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_06.wav</ShortName>
@@ -493,6 +509,10 @@
 					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_02.wav</ShortName>
 					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="819474147" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX_Chest_Open_ST.wav</ShortName>
+					<CachePath>SFX/SFX_Chest_Open_ST_10C4C929.wem</CachePath>
+				</File>
 				<File Id="825460426" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_03.wav</ShortName>
 					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_03_10C4C929.wem</CachePath>
@@ -563,6 +583,11 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="364247913" Name="Play_ChestOpen" DurationType="OneShot" DurationMin="1.4993788" DurationMax="1.6135054">
+					<MediaRefs>
+						<MediaRef Id="819474147"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" DurationType="OneShot" DurationMin="0.054542635" DurationMax="0.7424086">
 					<SwitchContainers>
 						<SwitchContainer>
@@ -665,6 +690,27 @@
 						<MediaRef Id="1070465072"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2390169235" Name="Play_CrystalActivate" DurationType="OneShot" DurationMin="2.0666666" DurationMax="2.0666666">
+					<MediaRefs>
+						<MediaRef Id="25907967"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3197300806" Name="Play_DoorOpen" DurationType="OneShot" DurationMin="3.4" DurationMax="3.4">
+					<MediaRefs>
+						<MediaRef Id="100798765"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="380326259" Name="Play_SwordIdle" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="129508183"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3866002016" Name="Play_SwordTake" DurationType="OneShot" DurationMin="1.8513664" DurationMax="2.0200958">
+					<MediaRefs>
+						<MediaRef Id="365421460"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3297221069" Name="Stop_SwordIdle" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="876169933" Name="GROMPER_FOOTSTEPS_MATERIAL">
@@ -681,5 +727,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0439D2F4-E1FE-EABB-D436-79992F922CBA}</FileHash>
+	<FileHash>{BE992499-73DD-7B7E-B171-78BA91F5A836}</FileHash>
 </SoundBanksInfo>

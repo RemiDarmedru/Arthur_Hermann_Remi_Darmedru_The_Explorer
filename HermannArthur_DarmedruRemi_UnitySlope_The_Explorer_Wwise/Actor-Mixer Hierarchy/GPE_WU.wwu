@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" SchemaVersion="110" RootDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" ParentDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}">
+	<AudioObjects>
+		<WorkUnit Name="GPE_WU" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" OwnerID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="GPE_AM" ID="{6A938BFE-1CF6-44AD-B90B-F18BA35CC57A}" ShortID="805111683">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="SWORD_WU" ID="{9159B4DA-4CFB-4715-B73C-6997A11D1D71}" PersistMode="Reference"/>
+						<WorkUnit Name="CHEST_WU" ID="{F1BE485B-4143-48B7-A654-02D4BD22413C}" PersistMode="Reference"/>
+						<WorkUnit Name="CRYSTAL_WU" ID="{63CACA40-1E77-4D11-831F-2FF06866399C}" PersistMode="Reference"/>
+						<WorkUnit Name="DOOR_WU" ID="{57CC5A12-6400-475A-BB58-82C173F3638F}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

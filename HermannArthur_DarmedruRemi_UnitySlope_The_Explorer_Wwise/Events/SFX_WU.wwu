@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="ENNEMIES_WU" ID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_WU" ID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="ENNEMIES_WU" ID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" PersistMode="Reference"/>
+				<WorkUnit Name="GPE_WU" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -16,16 +17,31 @@ namespace Gamekit3D
 
         public AudioClip clip;
         public DataSettings dataSettings;
+        
+        [Header("Wwise Idle Loop")]
+        public AK.Wwise.Event Play_ItemIdle;
+        public AK.Wwise.Event Stop_ItemIdle;
+        public GameObject AudioSource;
+        private bool isLoopPlaying = false;
 
         void OnEnable()
         {
             collider = GetComponent<Collider>();
             PersistentDataManager.RegisterPersister(this);
+            if (AudioSource == null)
+                AudioSource = gameObject;
+                
+            if (Play_ItemIdle != null && !isLoopPlaying)
+            {
+                Play_ItemIdle.Post(AudioSource);
+                isLoopPlaying = true;
+            }
         }
 
         void OnDisable()
         {
             PersistentDataManager.UnregisterPersister(this);
+            StopIdleLoop();
         }
 
         void Reset()
@@ -42,14 +58,30 @@ namespace Gamekit3D
             {
                 var ic = other.GetComponent<InventoryController>();
                 ic.AddItem(inventoryKey);
+                StopIdleLoop();
                 if (disableOnEnter)
                 {
                     gameObject.SetActive(false);
                     Save();
                 }
+                
 
-                if (clip) AudioSource.PlayClipAtPoint(clip, transform.position);
-
+            }
+        }
+        
+        private void StopIdleLoop()
+        {
+            if (isLoopPlaying && AudioSource != null)
+            {
+                if (Stop_ItemIdle != null)
+                {
+                    Stop_ItemIdle.Post(AudioSource);
+                }
+                else
+                {
+                    AkSoundEngine.StopAll(AudioSource);
+                }
+                isLoopPlaying = false;
             }
         }
 
