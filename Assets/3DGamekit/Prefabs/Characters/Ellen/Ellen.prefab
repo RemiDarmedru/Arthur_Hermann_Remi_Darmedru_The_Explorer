@@ -22213,7 +22213,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0149b5ab8f608c943b260125ac76d875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHitPoints: 100
+  maxHitPoints: 5
   invulnerabiltyTime: 5
   hitAngle: 360
   hitForwardRotation: 360
@@ -22382,6 +22382,22 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: fb7899f3d29d4214389d6144187a0a2c,
       type: 2}
   MC_LAND:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  MC_COMBO_1:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  MC_COMBO_2:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  MC_COMBO_3:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  MC_COMBO_4:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
