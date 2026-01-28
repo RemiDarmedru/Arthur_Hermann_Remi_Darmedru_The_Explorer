@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{064AA973-BC9C-4561-A392-0053BD079319}" SchemaVersion="110" RootDocumentID="{60744193-6ECA-402F-A769-6368F6AEE44C}" ParentDocumentID="{60744193-6ECA-402F-A769-6368F6AEE44C}">
+	<AudioObjects>
+		<WorkUnit Name="COMBO_WU" ID="{064AA973-BC9C-4561-A392-0053BD079319}" OwnerID="{B78EDA3A-FADD-4252-9307-8F445DF7D8B4}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="SFX_MC_Combo" ID="{C003D439-137C-496C-A38E-D2E661F8CF2E}" ShortID="127509666">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{EC1FE4C6-9259-48BB-B3C9-50C60092AA44}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="150"/>
+											<Property Name="Min" Type="Real64" Value="-150"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1C790D4B-E78C-4835-86D2-1C2490540A60}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-2"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="SFX_MC_Combo_1" ID="{7981783E-0CBE-4CE4-805E-C8095FF7CFC6}" ShortID="167889339">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Combo_1" ID="{5D93A7F8-B90C-4881-86F2-E7C68DAE3833}">
+									<Language>SFX</Language>
+									<AudioFile>SFX\MC\SFX_MC_Combo_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="21811159"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Combo_1" ID="{5D93A7F8-B90C-4881-86F2-E7C68DAE3833}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_MC_Combo_2" ID="{128B2D7F-8D63-4588-A024-3803CB3D0FA7}" ShortID="163059131">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Combo_2" ID="{6446628F-77BF-41D4-915A-71C368A1015C}">
+									<Language>SFX</Language>
+									<AudioFile>SFX\MC\SFX_MC_Combo_2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="828617634"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Combo_2" ID="{6446628F-77BF-41D4-915A-71C368A1015C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_MC_Combo_3" ID="{41422476-AF59-4FDE-9AD5-958CC621D825}" ShortID="641192820">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Combo_3" ID="{2E6F7953-60AE-44E3-AB08-05A9E6A6099E}">
+									<Language>SFX</Language>
+									<AudioFile>SFX\MC\SFX_MC_Combo_3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="517060785"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Combo_3" ID="{2E6F7953-60AE-44E3-AB08-05A9E6A6099E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFX_MC_Combo_4" ID="{48459D11-6B9C-44F1-80E9-4B13C25CD0E7}" ShortID="143130552">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CFA82615-FC2E-4C83-B72E-0D57F6FE6596}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="SFX_MC_Combo_4" ID="{62853E03-AB5C-4FA0-9BEF-5B14DF31B5B3}">
+									<Language>SFX</Language>
+									<AudioFile>SFX\MC\SFX_MC_Combo_4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="845028495"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="SFX_MC_Combo_4" ID="{62853E03-AB5C-4FA0-9BEF-5B14DF31B5B3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

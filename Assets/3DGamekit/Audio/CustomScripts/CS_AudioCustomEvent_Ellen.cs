@@ -7,6 +7,11 @@ public class CS_AudioCustomEvent_Ellen : MonoBehaviour
     public AK.Wwise.Event MC_FT;
     public AK.Wwise.Event MC_JUMP;
     public AK.Wwise.Event MC_LAND;
+    public AK.Wwise.Event MC_COMBO_1;
+    public AK.Wwise.Event MC_COMBO_2;
+    public AK.Wwise.Event MC_COMBO_3;
+    public AK.Wwise.Event MC_COMBO_4;
+    
     public GameObject AudioSource;
     
     private string currentMaterial;
@@ -56,4 +61,25 @@ public class CS_AudioCustomEvent_Ellen : MonoBehaviour
             }
         }
     }
+
+    public void MC_COMBO_1_Play()
+    {
+        MC_COMBO_1.Post(AudioSource);
+    }
+
+    public void MC_COMBO_2_Play()
+    {
+        MC_COMBO_2.Post(AudioSource);
+    }
+
+    public void MC_COMBO_3_Play()
+    {
+        MC_COMBO_3.Post(AudioSource);
+    }
+
+    public void MC_COMBO_4_Play()
+    {
+        MC_COMBO_4.Post(AudioSource);
+    }
+    
 }

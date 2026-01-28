@@ -16,6 +16,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{AB066ABA-B564-41FB-9AA2-7C904E8362FA}" ShortID="90427901">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FL_MC_Walk" ID="{C493FF8D-FABA-454C-8686-84811B0A28B2}" WorkUnitID="{BA8A5E16-E4FC-4286-8BCD-36EB26C659CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_MC_FOLEY_JUMP" ID="{45305CD9-8155-455C-8A31-5689E2BC4520}">
@@ -35,6 +45,90 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="MC_FOLEY_LAND" ID="{A0C0E47F-0D3C-450F-92CA-6BA4A868DE15}" WorkUnitID="{22ABC91C-EB15-4779-8527-A90D3ADD623C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_MC_Combo_4" ID="{B6BFF665-09BA-42A8-A0AA-86BB2047BD7A}">
+					<ChildrenList>
+						<Action Name="" ID="{74B4AE49-657B-4901-8AD7-9E491F54FEF4}" ShortID="970455519">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Combo_4" ID="{48459D11-6B9C-44F1-80E9-4B13C25CD0E7}" WorkUnitID="{064AA973-BC9C-4561-A392-0053BD079319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{682A95B9-8BDF-41A8-9551-7B43EAB565E5}" ShortID="717979028">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FL_MC_Combo" ID="{A7233A2F-5031-40DA-9CAB-80ED89214957}" WorkUnitID="{BA8A5E16-E4FC-4286-8BCD-36EB26C659CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_MC_Combo_2" ID="{AE214081-F1C3-4278-A004-F11BDEFBDA2B}">
+					<ChildrenList>
+						<Action Name="" ID="{A8E7612F-3544-4D33-BCCC-F3B86420AC79}" ShortID="100802249">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Combo_2" ID="{128B2D7F-8D63-4588-A024-3803CB3D0FA7}" WorkUnitID="{064AA973-BC9C-4561-A392-0053BD079319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0E2B6FE6-F225-42BE-B85C-C0FDA75D3E3F}" ShortID="407932592">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FL_MC_Combo" ID="{A7233A2F-5031-40DA-9CAB-80ED89214957}" WorkUnitID="{BA8A5E16-E4FC-4286-8BCD-36EB26C659CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_MC_Combo_3" ID="{677522A1-BA3B-4177-8C8B-CEDFCE1BDA5C}">
+					<ChildrenList>
+						<Action Name="" ID="{C8F2EE98-FF28-4D4F-B45F-81B9A485BA00}" ShortID="888352056">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Combo_3" ID="{41422476-AF59-4FDE-9AD5-958CC621D825}" WorkUnitID="{064AA973-BC9C-4561-A392-0053BD079319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{48FE0F7F-5465-45E2-B3B5-B3990132230C}" ShortID="716398203">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FL_MC_Combo" ID="{A7233A2F-5031-40DA-9CAB-80ED89214957}" WorkUnitID="{BA8A5E16-E4FC-4286-8BCD-36EB26C659CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_MC_Combo_1" ID="{1356FA3D-67DB-4077-96CA-34F5C33FF158}">
+					<ChildrenList>
+						<Action Name="" ID="{9DCE7011-85BF-4363-B8E5-E4B116CAFAB8}" ShortID="457834346">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_MC_Combo_1" ID="{7981783E-0CBE-4CE4-805E-C8095FF7CFC6}" WorkUnitID="{064AA973-BC9C-4561-A392-0053BD079319}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{93D07BC2-0771-470E-A59B-D2CD34653839}" ShortID="737994080">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FL_MC_Combo" ID="{A7233A2F-5031-40DA-9CAB-80ED89214957}" WorkUnitID="{BA8A5E16-E4FC-4286-8BCD-36EB26C659CF}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
