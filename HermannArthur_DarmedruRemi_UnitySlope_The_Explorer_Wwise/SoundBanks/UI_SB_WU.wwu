@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{417E5AAA-68E9-41B5-BC9C-73051CA02577}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="UI_SB_WU" ID="{417E5AAA-68E9-41B5-BC9C-73051CA02577}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<SoundBank Name="UI_SB" ID="{334BBDF1-4E2E-43FD-B330-2AB4676A7336}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Info_Zone_Out" ID="{5C76BAAB-531D-4292-95E1-BFCDF48D0A5D}" WorkUnitID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="INFO_WU" ID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" WorkUnitID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Info_Zone_In" ID="{100DFA7C-1DA2-49FB-8ABB-222F27956756}" WorkUnitID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MENU_WU" ID="{5DBBC104-788A-4A93-8B83-FF8890622709}" WorkUnitID="{5DBBC104-788A-4A93-8B83-FF8890622709}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

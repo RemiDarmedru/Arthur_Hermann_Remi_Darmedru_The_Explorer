@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" SchemaVersion="110" RootDocumentID="{AC635665-EC79-407B-B20B-4649785F4BEE}" ParentDocumentID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}">
+	<Events>
+		<WorkUnit Name="GRENADIER_WU" ID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" OwnerID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Grenadier_Death" ID="{CE1E27D2-211A-440E-8C65-7F01BDB6DD6E}">
+					<ChildrenList>
+						<Action Name="" ID="{9F5C7E46-1D30-400C-9E39-33B3DFC78BAB}" ShortID="637876423">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_DEATH" ID="{3644D943-8C7C-4CDA-8D8D-766FACAAF410}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Hit" ID="{04371DD2-C000-43A6-A410-319A16399FE0}">
+					<ChildrenList>
+						<Action Name="" ID="{D5622E0D-E95F-43EC-B587-53C6F6DE2012}" ShortID="436184131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_HIT" ID="{8B7E3F17-C52D-4F35-8981-CBF2C0CA5390}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{13C54C54-865F-49DF-B171-DA02A141511D}" ShortID="988989407">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_IDLE" ID="{AC601EE8-AAF7-4685-AD10-E410031FBBA3}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_MeleeAttack" ID="{5D87DBA4-E678-481E-8761-DCB59EA2A23D}">
+					<ChildrenList>
+						<Action Name="" ID="{0313338A-470F-4D57-AB1F-C5A547FA8399}" ShortID="676105250">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MELEE_ATT" ID="{9268A9CF-9977-435A-9F12-8D3C2AC305C9}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C026DD94-26AB-4577-B5D9-ACE687D204AD}" ShortID="627947995">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_IDLE" ID="{AC601EE8-AAF7-4685-AD10-E410031FBBA3}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_CloseRangeAttack" ID="{A14F2136-5476-427E-BE0C-43BC24E8B1BE}">
+					<ChildrenList>
+						<Action Name="" ID="{786CBF44-019F-4A10-9159-E54FD031B604}" ShortID="815704765">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CLOSERANGE_ATT" ID="{5134AF18-20F2-47CE-BDB5-1B76BB1CA0EF}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4E7409D2-D3D5-4042-A661-C69F66552FA5}" ShortID="117153436">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_IDLE" ID="{AC601EE8-AAF7-4685-AD10-E410031FBBA3}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_RangeAttack" ID="{21430920-B612-4507-8D94-D9391FA33658}">
+					<ChildrenList>
+						<Action Name="" ID="{8134F8F1-5B52-4780-8F88-FF777EAB470A}" ShortID="706859646">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RANGE_ATT" ID="{F0F90E41-6F8D-4EBF-9DA9-6BE12335C63F}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BCFD7A77-4885-4091-9B2C-D35F70BD8A31}" ShortID="862328341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_IDLE" ID="{AC601EE8-AAF7-4685-AD10-E410031FBBA3}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_RangeAttack2" ID="{305661D2-5091-4D8D-845B-B210C03E94E7}">
+					<ChildrenList>
+						<Action Name="" ID="{519464EC-9E71-429F-A8DB-C550AA0902F3}" ShortID="392558862">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RANGE_ATT_02" ID="{4C200DFF-288F-42CB-A796-FFBF60B9745F}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{53C5EB7B-BCCA-4779-ADD8-9706FC3CAB55}" ShortID="1009275598">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_IDLE" ID="{AC601EE8-AAF7-4685-AD10-E410031FBBA3}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Idle" ID="{9B508702-E77A-42BD-A63B-1AE6C6CFEEE8}">
+					<ChildrenList>
+						<Action Name="" ID="{57408BDA-CA14-44CD-82FC-016E20131B1C}" ShortID="760815886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_IDLE" ID="{AC601EE8-AAF7-4685-AD10-E410031FBBA3}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Grenadier_Walk" ID="{EA33E884-40AE-4966-BBCC-E547D9D9DC03}">
+					<ChildrenList>
+						<Action Name="" ID="{9E191786-25A6-484C-B7A1-D02FF393DC0E}" ShortID="352399488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GRENADIER_WALK" ID="{C8FD9B27-60EC-462E-A22B-F995A3C2E342}" WorkUnitID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -15,6 +15,7 @@
 						<WorkUnit Name="MC_WU" ID="{96AC13CD-2343-4FF2-A83D-975B3D911E3D}" PersistMode="Reference"/>
 						<WorkUnit Name="MUSIC_WU" ID="{9FDBE066-8DB1-488E-8FCC-3F6CCCB79D44}" PersistMode="Reference"/>
 						<WorkUnit Name="FOLEY_WU" ID="{364A9545-3B12-402A-ADB6-641D56CAAB33}" PersistMode="Reference"/>
+						<WorkUnit Name="UI_WU" ID="{847E7858-36B7-451A-AAF2-B66F8A7B7E53}" PersistMode="Reference"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

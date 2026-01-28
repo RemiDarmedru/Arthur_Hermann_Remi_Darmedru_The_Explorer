@@ -15,16 +15,27 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_ChomperVoiceGrunt" ID="{222BF6A4-5BE8-40A1-AC11-6B50C0AF0ACC}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_SwordIdle" ID="{4DB75105-FE0F-41B9-A148-F0C3D016A0C8}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_CloseRangeAttack" ID="{A14F2136-5476-427E-BE0C-43BC24E8B1BE}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_Idle" ID="{9B508702-E77A-42BD-A63B-1AE6C6CFEEE8}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_DoorOpen02" ID="{4EA6BF34-FF4D-439F-BF21-607A30D68334}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_Hit" ID="{04371DD2-C000-43A6-A410-319A16399FE0}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_Death" ID="{CE1E27D2-211A-440E-8C65-7F01BDB6DD6E}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChestOpen" ID="{363B19A3-5D26-44B1-B821-92CA7B533C04}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_RangeAttack" ID="{21430920-B612-4507-8D94-D9391FA33658}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordIdle" ID="{E6B0AC6C-CCD0-46BD-B0C5-AD021CB757E6}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GRENADIER_WU" ID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_MeleeAttack" ID="{5D87DBA4-E678-481E-8761-DCB59EA2A23D}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GPE_WU" ID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperVoiceAttack" ID="{64F9F7E6-BAFC-4869-BFBF-AC7F113C3302}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_Walk" ID="{EA33E884-40AE-4966-BBCC-E547D9D9DC03}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperVoiceHit" ID="{195FC007-036F-49C9-8CB2-909414D19D18}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperVoiceIdle" ID="{95FC044D-EE7D-4AB5-8000-FA0CA3E0F883}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_SwordTake" ID="{2757B188-9A65-4ACF-AF71-39BAA733C141}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DoorOpen" ID="{2661E644-7749-4B11-89FC-04CFA72A8695}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperFootsteps" ID="{F9C5F746-26A7-4C80-8761-B55435075335}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_CrystalActivate" ID="{8743FCD5-331A-4D32-A021-38B24B7D94BC}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Grenadier_RangeAttack2" ID="{305661D2-5091-4D8D-845B-B210C03E94E7}" WorkUnitID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BoxBreak" ID="{2012E1FD-B61E-4DCA-8A51-8010627FF4D4}" WorkUnitID="{1A0E1072-9686-4827-B656-4B6DC47F882B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperVoiceDeath" ID="{3F48B2EC-1430-4E33-983D-7F6EC3A6EA7F}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_ChomperVoiceSpotted" ID="{734C4B9F-CAA0-4E49-AA57-B840110A5D7D}" WorkUnitID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

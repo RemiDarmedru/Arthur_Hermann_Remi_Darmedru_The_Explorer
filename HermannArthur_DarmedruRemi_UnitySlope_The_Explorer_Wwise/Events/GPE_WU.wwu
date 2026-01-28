@@ -73,6 +73,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_DoorOpen02" ID="{4EA6BF34-FF4D-439F-BF21-607A30D68334}">
+					<ChildrenList>
+						<Action Name="" ID="{E773D297-8FBC-4D3E-BF45-A7B301F76FAD}" ShortID="246503529">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DOOR_OPEN02" ID="{5A6F50F0-496D-46FA-9018-DFBAFFE364C1}" WorkUnitID="{57CC5A12-6400-475A-BB58-82C173F3638F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BoxBreak" ID="{2012E1FD-B61E-4DCA-8A51-8010627FF4D4}">
+					<ChildrenList>
+						<Action Name="" ID="{29D67B28-2AC4-41AF-9EC0-1BBE1B4ABA81}" ShortID="839144374">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BOX_BREAK" ID="{A4EEE26E-1233-44A6-8C80-03B5E6D2BE8F}" WorkUnitID="{E6FB861C-EF87-42A3-9BD3-55E6634F834A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

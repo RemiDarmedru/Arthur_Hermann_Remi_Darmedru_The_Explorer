@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{194F35EC-3B8A-4A97-936E-0F070C238A01}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="UI_WU" ID="{194F35EC-3B8A-4A97-936E-0F070C238A01}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="MENU_WU" ID="{5DBBC104-788A-4A93-8B83-FF8890622709}" PersistMode="Reference"/>
+				<WorkUnit Name="INFO_WU" ID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

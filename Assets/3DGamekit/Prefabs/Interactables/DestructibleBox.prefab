@@ -11909,6 +11909,8 @@ GameObject:
   - component: {fileID: 114157936046045886}
   - component: {fileID: 64170521529424344}
   - component: {fileID: 54171921546205050}
+  - component: {fileID: 8976489916408058401}
+  - component: {fileID: 2812500769761783665}
   m_Layer: 23
   m_Name: DestructibleBox
   m_TagString: Untagged
@@ -12062,6 +12064,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8976489916408058401}
+        m_TargetAssemblyTypeName: BoxBreakAudio, Assembly-CSharp
+        m_MethodName: PlayBreakSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnReceiveDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -12074,7 +12088,12 @@ MonoBehaviour:
   OnResetDamage:
     m_PersistentCalls:
       m_Calls: []
+  Play_BoxBreak:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   onDamageMessageReceivers: []
+  AudioSource: {fileID: 0}
 --- !u!64 &64170521529424344
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -12124,6 +12143,46 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8976489916408058401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811652608955626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 456297e2d8fb9e847b3d243cec00971d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Play_BoxBreak:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e0e08620bb97cea4ebe9eecf9e805549,
+      type: 2}
+  AudioSource: {fileID: 0}
+--- !u!114 &2812500769761783665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811652608955626}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511e456921e1a1f4c818f4832aacfdff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1889811734103110
 GameObject:
   m_ObjectHideFlags: 0

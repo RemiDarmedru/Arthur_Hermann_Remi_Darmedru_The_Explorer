@@ -17,6 +17,7 @@
 						<WorkUnit Name="CHEST_WU" ID="{F1BE485B-4143-48B7-A654-02D4BD22413C}" PersistMode="Reference"/>
 						<WorkUnit Name="CRYSTAL_WU" ID="{63CACA40-1E77-4D11-831F-2FF06866399C}" PersistMode="Reference"/>
 						<WorkUnit Name="DOOR_WU" ID="{57CC5A12-6400-475A-BB58-82C173F3638F}" PersistMode="Reference"/>
+						<WorkUnit Name="BOX_WU" ID="{E6FB861C-EF87-42A3-9BD3-55E6634F834A}" PersistMode="Reference"/>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

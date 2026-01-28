@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.Events;
 using Gamekit3D.Message;
 using UnityEngine.Serialization;
+using AK.Wwise;
+using Event = UnityEngine.Event;
 
 namespace Gamekit3D
 {
@@ -27,11 +29,12 @@ namespace Gamekit3D
         public int currentHitPoints { get; private set; }
 
         public UnityEvent OnDeath, OnReceiveDamage, OnHitWhileInvulnerable, OnBecomeVulnerable, OnResetDamage;
-
+        public AK.Wwise.Event Play_BoxBreak;
         [Tooltip("When this gameObject is damaged, these other gameObjects are notified.")]
         [EnforceType(typeof(Message.IMessageReceiver))]
         public List<MonoBehaviour> onDamageMessageReceivers;
-
+        public GameObject AudioSource;
+        
         protected float m_timeSinceLastHit = 0.0f;
         protected Collider m_Collider;
 
@@ -107,6 +110,14 @@ namespace Gamekit3D
             {
                 var receiver = onDamageMessageReceivers[i] as IMessageReceiver;
                 receiver.OnReceiveMessage(messageType, this, data);
+            }
+        }
+        public void PlayBreakSound()
+        {
+            if (Play_BoxBreak != null && AudioSource != null)
+            {
+                Play_BoxBreak.Post(AudioSource);
+                Debug.Log($"[BoxBreak] Son joué sur {gameObject.name}");
             }
         }
 

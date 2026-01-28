@@ -15,10 +15,15 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="SWORD_IDLE" ID="{0B25AB1D-E944-48F7-BE82-61FC68C0694F}" ShortID="767742138">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GLOBAL_ATT" ID="{F8C7EB83-ADDD-47BA-8293-B492E518F0F5}" WorkUnitID="{D8FFF7A4-DA6B-4A6D-A0EF-F6B53A355409}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
 								</Reference>
@@ -60,6 +65,8 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="SWORD_TAKE" ID="{812315FE-6B58-4754-81B4-6C6D092797D2}" ShortID="327501112">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -75,6 +82,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="GLOBAL_ATT" ID="{F8C7EB83-ADDD-47BA-8293-B492E518F0F5}" WorkUnitID="{D8FFF7A4-DA6B-4A6D-A0EF-F6B53A355409}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
 								</Reference>

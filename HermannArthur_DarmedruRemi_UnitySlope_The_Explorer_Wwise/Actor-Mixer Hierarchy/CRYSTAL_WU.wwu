@@ -15,6 +15,7 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="CRYSTAL_ACTIVATE" ID="{BD001B5C-D652-4C0B-AF24-E3E5B9CC4F94}" ShortID="1052356536">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>

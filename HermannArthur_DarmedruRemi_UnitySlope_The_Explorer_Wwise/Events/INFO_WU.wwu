@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" SchemaVersion="110" RootDocumentID="{194F35EC-3B8A-4A97-936E-0F070C238A01}" ParentDocumentID="{194F35EC-3B8A-4A97-936E-0F070C238A01}">
+	<Events>
+		<WorkUnit Name="INFO_WU" ID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" OwnerID="{194F35EC-3B8A-4A97-936E-0F070C238A01}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Info_Zone_In" ID="{100DFA7C-1DA2-49FB-8ABB-222F27956756}">
+					<ChildrenList>
+						<Action Name="" ID="{49ACBE1C-3D3C-494B-9391-39FDCD4B78A7}" ShortID="763530330">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="INFOZON_IN" ID="{23071073-03CE-4E20-9FC3-18286FC601E8}" WorkUnitID="{4B350203-0586-4C54-9988-978B0C748C57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Info_Zone_Out" ID="{5C76BAAB-531D-4292-95E1-BFCDF48D0A5D}">
+					<ChildrenList>
+						<Action Name="" ID="{61824F11-88C8-49CF-B11A-B99816C887E2}" ShortID="938429739">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="INFOZONE_OUT" ID="{98409293-5908-408C-85C6-93749202CCD5}" WorkUnitID="{4B350203-0586-4C54-9988-978B0C748C57}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

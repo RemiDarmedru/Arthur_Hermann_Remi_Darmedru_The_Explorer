@@ -4,6 +4,7 @@ using Gamekit3D;
 using UnityEngine;
 using UnityEngine.Playables;
 #if UNITY_EDITOR
+using AK.Wwise;
 using UnityEditor;
 #endif
 
@@ -16,6 +17,11 @@ namespace Gamekit3D
         public GameObject optionsCanvas;
         public GameObject controlsCanvas;
         public GameObject audioCanvas;
+        
+        [Header("Wwise Events")]
+        public AK.Wwise.Event Play_UI_PauseOpen;
+        public AK.Wwise.Event Play_UI_PauseClose;
+        public GameObject AudioSource;
 
         protected bool m_InPause;
         protected PlayableDirector[] m_Directors;
@@ -34,6 +40,8 @@ namespace Gamekit3D
             }
 
             m_Directors = FindObjectsOfType<PlayableDirector> ();
+            if (AudioSource == null)
+                AudioSource = gameObject;
         }
 
         public void Quit()
@@ -96,6 +104,15 @@ namespace Gamekit3D
                 PlayerInput.Instance.GainControl();
             else
                 PlayerInput.Instance.ReleaseControl();
+            // Joue le son AVANT de changer le timeScale
+            if (!m_InPause) // On va mettre en pause
+            {
+                PlayPauseOpen();
+            }
+            else // On va sortir de la pause
+            {
+                PlayPauseClose();
+            }
 
             Time.timeScale = m_InPause ? 1 : 0;
 
@@ -112,6 +129,23 @@ namespace Gamekit3D
                 audioCanvas.SetActive(false);
 
             m_InPause = !m_InPause;
+        }
+        private void PlayPauseOpen()
+        {
+            if (Play_UI_PauseOpen != null && AudioSource != null)
+            {
+                Play_UI_PauseOpen.Post(AudioSource);
+                Debug.Log("[StartUI] Pause Open");
+            }
+        }
+        
+        private void PlayPauseClose()
+        {
+            if (Play_UI_PauseClose != null && AudioSource != null)
+            {
+                Play_UI_PauseClose.Post(AudioSource);
+                Debug.Log("[StartUI] Pause Close");
+            }
         }
     }
 }

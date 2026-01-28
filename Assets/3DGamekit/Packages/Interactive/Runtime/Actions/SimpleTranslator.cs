@@ -9,9 +9,14 @@ namespace Gamekit3D.GameCommands
         public Vector3 start = -Vector3.forward;
         public Vector3 end = Vector3.forward;
 
+        private bool hasStarted = false;
         public override void PerformTransform(float position)
         {
-
+            if (!hasStarted && position > 0.01f)
+            {
+                            SendMessage("PlayOpenSound", SendMessageOptions.DontRequireReceiver);
+                            hasStarted = true;
+            }
             var curvePosition = accelCurve.Evaluate(position);
             var pos = transform.TransformPoint(Vector3.Lerp(start, end, curvePosition));
             Vector3 deltaPosition = pos - rigidbody.position;

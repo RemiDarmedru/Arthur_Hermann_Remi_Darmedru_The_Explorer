@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2396550282	Play_Info_Zone_Out			\UI_WU\INFO_WU\Play_Info_Zone_Out	
+	3672787703	Play_Info_Zone_In			\UI_WU\INFO_WU\Play_Info_Zone_In	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	935930100	UI_Info_Zone_In_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Info_Zone_In_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\INFO_WU\INFO_AM\INFOZONE_IN\INFOZON_IN\UI_Info_Zone_In_ST		153696
+	956031463	UI_Info_Zone_Out_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Info_Zone_Out_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\INFO_WU\INFO_AM\INFOZONE_OUT\INFOZONE_OUT\UI_Info_Zone_Out_ST		153696
+

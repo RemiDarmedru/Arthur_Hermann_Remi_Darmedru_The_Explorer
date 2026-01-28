@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F2191850-FB49-4E82-8F9D-D96306BF2027}" SchemaVersion="110" RootDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" ParentDocumentID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}">
+	<AudioObjects>
+		<WorkUnit Name="GRENADIER_WU" ID="{F2191850-FB49-4E82-8F9D-D96306BF2027}" OwnerID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="GRENADIER_AM" ID="{A2F9CBFC-D1C0-4423-ADB2-767C127FF8CA}" ShortID="88991726">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="GRENADIER_ATT" ID="{FEFE8F3D-121C-4A35-92F3-FCE09B10F088}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

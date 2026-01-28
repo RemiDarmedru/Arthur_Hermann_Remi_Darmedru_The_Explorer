@@ -4,6 +4,7 @@
 		<WorkUnit Name="ENNEMIES_WU" ID="{57A5ACD4-5C46-4093-9B4C-F0492FB9A404}" OwnerID="{AC635665-EC79-407B-B20B-4649785F4BEE}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="CHOMPER_WU" ID="{AD214F9E-988E-4220-8B07-041EA2EFE5E5}" PersistMode="Reference"/>
+				<WorkUnit Name="GRENADIER_WU" ID="{EAA73F3B-B1B2-473A-9654-BD9F25C5714F}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
