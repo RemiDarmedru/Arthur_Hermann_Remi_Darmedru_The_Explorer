@@ -21,6 +21,8 @@ namespace Gamekit3D
         [Header("Wwise Events")]
         public AK.Wwise.Event Play_UI_PauseOpen;
         public AK.Wwise.Event Play_UI_PauseClose;
+        public AK.Wwise.Event Play_UI_Hover;
+        public AK.Wwise.Event Play_UI_Click;
         public GameObject AudioSource;
 
         protected bool m_InPause;
@@ -145,6 +147,24 @@ namespace Gamekit3D
             {
                 Play_UI_PauseClose.Post(AudioSource);
                 Debug.Log("[StartUI] Pause Close");
+            }
+        }
+        
+        public void PlayUIHover()
+        {
+            if (Play_UI_Hover != null && AudioSource != null)
+            {
+                Play_UI_Hover.Post(AudioSource);
+                Debug.Log("[StartUI] UI Hover");
+            }
+        }
+
+        public void PlayUIClick()
+        {
+            if (Play_UI_Click != null && AudioSource != null)
+            {
+                Play_UI_Click.Post(AudioSource);
+                Debug.Log("[StartUI] UI Click");
             }
         }
     }

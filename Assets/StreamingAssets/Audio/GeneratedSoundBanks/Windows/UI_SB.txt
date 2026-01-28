@@ -1,8 +1,16 @@
 Event	ID	Name			Wwise Object Path	Notes
+	119142231	Play_MenuOpen			\UI_WU\MENU_WU\Play_MenuOpen	
+	1615720664	Play_UIClick			\UI_WU\MENU_WU\Play_UIClick	
 	2396550282	Play_Info_Zone_Out			\UI_WU\INFO_WU\Play_Info_Zone_Out	
+	2502251926	Play_UIHover			\UI_WU\MENU_WU\Play_UIHover	
+	2709512125	Play_MenuClose			\UI_WU\MENU_WU\Play_MenuClose	
 	3672787703	Play_Info_Zone_In			\UI_WU\INFO_WU\Play_Info_Zone_In	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	271212262	UI_Menu_Close_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Menu_Close_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\MENU_WU\MENU_AM\MENU_CLOSE\CLOSE\UI_Menu_Close_ST		275296
+	357575756	UI_Menu_Click_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Menu_Click_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\MENU_WU\MENU_AM\MENU_CLICK\MENU_CLICK\UI_Menu_Click_ST		32096
+	364923981	UI_Menu_Hover_Button_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Menu_Hover_Button_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\MENU_WU\MENU_AM\MENU_HOVER\HOVER\UI_Menu_Hover_Button_ST		19296
+	397663416	UI_Pause_OS_ST_01	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Pause_OS_ST_01_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\MENU_WU\MENU_AM\MENU_OPEN\OPEN\UI_Pause_OS_ST_01		288096
 	935930100	UI_Info_Zone_In_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Info_Zone_In_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\INFO_WU\INFO_AM\INFOZONE_IN\INFOZON_IN\UI_Info_Zone_In_ST		153696
 	956031463	UI_Info_Zone_Out_ST	C:\Users\Utilisateur\Documents\REPO\Arthur_Hermann_Remi_Darmedru_The_Explorer\HermannArthur_DarmedruRemi_UnitySlope_The_Explorer_Wwise\.cache\Windows\SFX\UI_Info_Zone_Out_ST_10C4C929.wem		\Actor-Mixer Hierarchy\UI_WU\UI_AM\INFO_WU\INFO_AM\INFOZONE_OUT\INFOZONE_OUT\UI_Info_Zone_Out_ST		153696
 

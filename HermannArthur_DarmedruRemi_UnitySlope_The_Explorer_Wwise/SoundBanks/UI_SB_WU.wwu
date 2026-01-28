@@ -10,9 +10,13 @@
 				<SoundBank Name="UI_SB" ID="{334BBDF1-4E2E-43FD-B330-2AB4676A7336}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Info_Zone_Out" ID="{5C76BAAB-531D-4292-95E1-BFCDF48D0A5D}" WorkUnitID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UIClick" ID="{62EC6CAA-EBBA-429A-AB05-BA6FE98E01D1}" WorkUnitID="{5DBBC104-788A-4A93-8B83-FF8890622709}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="INFO_WU" ID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" WorkUnitID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuClose" ID="{CA9ABCE0-CD2A-45DF-A8DE-EEC7BEE7FC24}" WorkUnitID="{5DBBC104-788A-4A93-8B83-FF8890622709}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_MenuOpen" ID="{EDE8C00F-2E7B-474B-BC49-B61D8B70765A}" WorkUnitID="{5DBBC104-788A-4A93-8B83-FF8890622709}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Info_Zone_In" ID="{100DFA7C-1DA2-49FB-8ABB-222F27956756}" WorkUnitID="{30396D14-84A9-441B-83B7-56DFFE98BB43}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="MENU_WU" ID="{5DBBC104-788A-4A93-8B83-FF8890622709}" WorkUnitID="{5DBBC104-788A-4A93-8B83-FF8890622709}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_UIHover" ID="{B4F55AA1-E7EA-4D61-AB05-94A802FC65FF}" WorkUnitID="{5DBBC104-788A-4A93-8B83-FF8890622709}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
