@@ -61,9 +61,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Box_Break_ST_01" ID="{6247027E-A648-4BE0-BBD6-6262E17532BC}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Box_Break_ST_01.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Box_Break_ST_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="574147641"/>
+												<MediaID ID="574147642"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -83,9 +83,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Box_Break_ST_02" ID="{302B0CFA-5C9B-4FFA-827E-5949B40276C9}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Box_Break_ST_02.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Box_Break_ST_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1030833827"/>
+												<MediaID ID="1030833828"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -105,9 +105,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Box_Break_ST_03" ID="{6DAC1184-EB0D-4222-A611-DD750FB943FA}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Box_Break_ST_03.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Box_Break_ST_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="704691836"/>
+												<MediaID ID="704691837"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -127,9 +127,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Box_Break_ST_04" ID="{744548AF-2F3B-4800-8633-F5BCDBE48BCB}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Box_Break_ST_04.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Box_Break_ST_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="679284345"/>
+												<MediaID ID="679284346"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -149,9 +149,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Box_Break_ST_05" ID="{8F776A9F-21AE-4BD5-BE82-6312D74F4113}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Box_Break_ST_05.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Box_Break_ST_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="99757383"/>
+												<MediaID ID="99757384"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

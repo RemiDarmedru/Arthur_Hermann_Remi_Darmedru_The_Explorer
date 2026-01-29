@@ -50,9 +50,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chest_Open_ST" ID="{9032E9EA-7C97-4DCB-8BC6-96A8BD8F3E59}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chest_Open_ST.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Chest_Open_ST.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="819474147"/>
+												<MediaID ID="819474148"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

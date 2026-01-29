@@ -24,13 +24,13 @@ namespace Gamekit3D
 
         public CameraSettings cameraSettings;            // Reference used to determine the camera's direction.
         public MeleeWeapon meleeWeapon;                  // Reference used to (de)activate the staff when attacking. 
-        public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
-        public RandomAudioPlayer hurtAudioPlayer;
-        public RandomAudioPlayer landingPlayer;
-        public RandomAudioPlayer emoteLandingPlayer;
-        public RandomAudioPlayer emoteDeathPlayer;
-        public RandomAudioPlayer emoteAttackPlayer;
-        public RandomAudioPlayer emoteJumpPlayer;
+        //public RandomAudioPlayer footstepPlayer;         // Random Audio Players used for various situations.
+        //public RandomAudioPlayer hurtAudioPlayer;
+        //public RandomAudioPlayer landingPlayer;
+        //public RandomAudioPlayer emoteLandingPlayer;
+        //public RandomAudioPlayer emoteDeathPlayer;
+        //public RandomAudioPlayer emoteAttackPlayer;
+        //public RandomAudioPlayer emoteJumpPlayer;
 
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
@@ -117,15 +117,17 @@ namespace Gamekit3D
 
             Transform footStepSource = transform.Find("FootstepSource");
             if (footStepSource != null)
-                footstepPlayer = footStepSource.GetComponent<RandomAudioPlayer>();
+            {}
+                //footstepPlayer = footStepSource.GetComponent<RandomAudioPlayer>();
 
             Transform hurtSource = transform.Find("HurtSource");
             if (hurtSource != null)
-                hurtAudioPlayer = hurtSource.GetComponent<RandomAudioPlayer>();
+            {}
+                //hurtAudioPlayer = hurtSource.GetComponent<RandomAudioPlayer>();
 
             Transform landingSource = transform.Find("LandingSource");
             if (landingSource != null)
-                landingPlayer = landingSource.GetComponent<RandomAudioPlayer>();
+                //landingPlayer = landingSource.GetComponent<RandomAudioPlayer>();
 
             cameraSettings = FindObjectOfType<CameraSettings>();
 
@@ -200,7 +202,7 @@ namespace Gamekit3D
             if (IsOrientationUpdated() && IsMoveInput)
                 UpdateOrientation();
 
-            PlayAudio();
+            //PlayAudio();
 
             TimeoutToIdle();
 
@@ -417,7 +419,7 @@ namespace Gamekit3D
         }
 
         // Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
-        void PlayAudio()
+        /*void PlayAudio()
         {
             float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
@@ -464,7 +466,7 @@ namespace Gamekit3D
             {
                 emoteAttackPlayer.PlayRandomClip();
             }
-        }
+        }*/
 
         // Called each physics step to count up to the point where Ellen considers a random idle.
         void TimeoutToIdle()
@@ -663,10 +665,10 @@ namespace Gamekit3D
             CameraShake.Shake(CameraShake.k_PlayerHitShakeAmount, CameraShake.k_PlayerHitShakeTime);
 
             // Play an audio clip of being hurt.
-            if (hurtAudioPlayer != null)
-            {
-                hurtAudioPlayer.PlayRandomClip();
-            }
+            // if (hurtAudioPlayer != null)
+            // {
+            //     hurtAudioPlayer.PlayRandomClip();
+            // }
         }
 
         // Called by OnReceiveMessage and by DeathVolumes in the scene.

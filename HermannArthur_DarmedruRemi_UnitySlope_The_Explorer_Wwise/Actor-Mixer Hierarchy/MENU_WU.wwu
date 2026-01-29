@@ -52,9 +52,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="UI_Pause_OS_ST_01" ID="{B6468D22-5F03-42CD-8E28-469A156C320F}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Pause_OS_ST_01.wav</AudioFile>
+													<AudioFile>UI\UI_Pause_OS_ST_01.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="397663416"/>
+														<MediaID ID="397663417"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -98,9 +98,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="UI_Menu_Close_ST" ID="{A6EA9798-2049-426A-B9DB-414BC3708DC4}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Menu_Close_ST.wav</AudioFile>
+													<AudioFile>UI\UI_Menu_Close_ST.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="271212262"/>
+														<MediaID ID="271212263"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -172,9 +172,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="UI_Menu_Hover_Button_ST" ID="{8680D656-C47D-4FBE-873F-DE03E4AF7930}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Menu_Hover_Button_ST.wav</AudioFile>
+													<AudioFile>UI\UI_Menu_Hover_Button_ST.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="364923981"/>
+														<MediaID ID="364923982"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -246,9 +246,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="UI_Menu_Click_ST" ID="{C15FCEAC-2094-4C1D-90D3-947E9EC64D06}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Menu_Click_ST.wav</AudioFile>
+													<AudioFile>UI\UI_Menu_Click_ST.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="357575756"/>
+														<MediaID ID="357575757"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>

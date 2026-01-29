@@ -648,6 +648,130 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<SwitchContainer Name="FL_MC_Roll" ID="{08A4E467-EB66-4D26-BE13-3EFF96AA1BCD}" ShortID="1008102883">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Mud" ID="{83655D87-277D-441F-BE7C-2900B3FBB40B}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="MC_FOOTSTEPS_MATERIAL" ID="{558082E1-3DA2-4820-92B7-90EAFE507981}" WorkUnitID="{90FA2AEE-DFB0-4420-B42F-EAAE44AC62F9}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_MC_Roll_Grass" ID="{EE3CB693-6222-4BDB-8750-5E5E067D0FA8}" ShortID="53307577">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_MC_Roll_Grass" ID="{C8A864C2-9F7F-49CC-B9B2-CBF74B554F9F}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\MC\FOL_MC_Roll_Grass.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="823750011"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_MC_Roll_Grass" ID="{C8A864C2-9F7F-49CC-B9B2-CBF74B554F9F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_MC_Roll_Mud" ID="{20788B36-3640-4F3D-A5A8-5686870CD1A9}" ShortID="920363640">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_MC_Roll_Mud" ID="{44A6C13A-2E76-4BEE-9ADB-4288A6A5BF14}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\MC\FOL_MC_Roll_Mud.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="112053879"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_MC_Roll_Mud" ID="{44A6C13A-2E76-4BEE-9ADB-4288A6A5BF14}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_MC_Roll_Rock" ID="{D522A115-3F92-460E-B028-F81C933D4408}" ShortID="738141215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{41489FE5-5055-4290-92FE-B369FFE6E7BF}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_MC_Roll_Rock" ID="{3AD6964C-1B44-4B7C-A540-DA4254575938}">
+											<Language>SFX</Language>
+											<AudioFile>SFX\MC\FOL_MC_Roll_Rock.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="548537339"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_MC_Roll_Rock" ID="{3AD6964C-1B44-4B7C-A540-DA4254575938}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="FOL_MC_Roll_Rock" ID="{D522A115-3F92-460E-B028-F81C933D4408}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FOL_MC_Roll_Mud" ID="{20788B36-3640-4F3D-A5A8-5686870CD1A9}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FOL_MC_Roll_Grass" ID="{EE3CB693-6222-4BDB-8750-5E5E067D0FA8}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Grass" ID="{1393C019-10EE-4BF6-9DBA-C1B837E33545}"/>
+										<ItemList>
+											<ItemRef Name="FOL_MC_Roll_Grass" ID="{EE3CB693-6222-4BDB-8750-5E5E067D0FA8}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Rock" ID="{5483B37D-99DC-4389-8116-FB72A7599F20}"/>
+										<ItemList>
+											<ItemRef Name="FOL_MC_Roll_Rock" ID="{D522A115-3F92-460E-B028-F81C933D4408}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Mud" ID="{83655D87-277D-441F-BE7C-2900B3FBB40B}"/>
+										<ItemList>
+											<ItemRef Name="FOL_MC_Roll_Mud" ID="{20788B36-3640-4F3D-A5A8-5686870CD1A9}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

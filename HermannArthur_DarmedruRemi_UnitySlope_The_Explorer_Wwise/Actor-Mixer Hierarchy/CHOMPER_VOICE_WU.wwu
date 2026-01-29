@@ -88,9 +88,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Hit_Voice_OS_M_01" ID="{2B941050-07E4-4CAD-A0A7-352DAB43D8C6}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Hit_Voice_OS_M_01.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="8264117"/>
+												<MediaID ID="8264118"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -110,9 +110,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Hit_Voice_OS_M_02" ID="{F87668BC-BE7A-48E3-800E-0FC9B4680FB0}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Hit_Voice_OS_M_02.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="464235127"/>
+												<MediaID ID="464235128"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -132,9 +132,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Hit_Voice_OS_M_03" ID="{A2D4567E-D633-4F97-9B60-4D9137FE5DB0}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Hit_Voice_OS_M_03.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="876288650"/>
+												<MediaID ID="876288651"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -154,9 +154,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Hit_Voice_OS_M_04" ID="{50C22CF9-92EB-44F6-B2A1-F6B48C54D662}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Hit_Voice_OS_M_04.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="248830895"/>
+												<MediaID ID="248830896"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -176,9 +176,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Hit_Voice_OS_M_05" ID="{B0AEA1CF-C699-4549-8A7E-EA6432F35067}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Hit_Voice_OS_M_05.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="885679426"/>
+												<MediaID ID="885679427"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -198,9 +198,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Hit_Voice_OS_M_06" ID="{A2583F75-EF17-41ED-AD42-A688288285E5}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Hit_Voice_OS_M_06.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="568833669"/>
+												<MediaID ID="568833670"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -287,9 +287,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Voice_Spotted_OS_M_01" ID="{483A0F76-4534-4508-813F-878A5118CDD1}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Voice_Spotted_OS_M_01.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="207820361"/>
+												<MediaID ID="207820362"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -309,9 +309,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Voice_Spotted_OS_M_02" ID="{EAA218AE-0688-484B-8E39-5BCE9C066CB1}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Voice_Spotted_OS_M_02.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="813564227"/>
+												<MediaID ID="813564228"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -331,9 +331,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Voice_Spotted_OS_M_03" ID="{931D7F96-65EB-40D6-8989-30A81AF11BD3}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Voice_Spotted_OS_M_03.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="825460426"/>
+												<MediaID ID="825460427"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -353,9 +353,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Voice_Spotted_OS_M_04" ID="{41961669-818C-4F53-9017-061827C2FD9C}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Voice_Spotted_OS_M_04.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="144285257"/>
+												<MediaID ID="144285258"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -375,9 +375,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Voice_Spotted_OS_M_05" ID="{EAE4A411-09BD-4EE1-B261-B8C0289DEF8C}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Voice_Spotted_OS_M_05.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="615347865"/>
+												<MediaID ID="615347866"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -397,9 +397,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Voice_Spotted_OS_M_06" ID="{4E5697DD-5F99-41A9-8BA0-AEBA25923110}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Voice_Spotted_OS_M_06.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1070465072"/>
+												<MediaID ID="1070465073"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -487,9 +487,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Attack_Voice_OS_M_01" ID="{8DB40B04-E52D-47A3-A308-73AC64AD6FAC}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Attack_Voice_OS_M_01.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="2393391"/>
+												<MediaID ID="2393392"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -509,9 +509,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Attack_Voice_OS_M_02" ID="{D5B6820C-9BD9-4616-982C-D704444C87E1}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Attack_Voice_OS_M_02.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="762447622"/>
+												<MediaID ID="762447623"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -531,9 +531,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Attack_Voice_OS_M_03" ID="{9F7792C7-D087-44FA-A20A-8315D5DD3462}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Attack_Voice_OS_M_03.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1061426490"/>
+												<MediaID ID="1061426491"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -553,9 +553,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Attack_Voice_OS_M_04" ID="{E989780C-6216-4B35-893F-301DC73275A5}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Attack_Voice_OS_M_04.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="2883128"/>
+												<MediaID ID="2883129"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -575,9 +575,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Attack_Voice_OS_M_05" ID="{0CFE40B0-81E3-47A8-A560-A7D5BA078E2D}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Attack_Voice_OS_M_05.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="625149423"/>
+												<MediaID ID="625149424"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -597,9 +597,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Attack_Voice_OS_M_06" ID="{5A8D71E6-0BA4-47AB-8FA7-8806D1D99795}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Attack_Voice_OS_M_06.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="297408373"/>
+												<MediaID ID="297408374"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -687,9 +687,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Idle_Voice_OS_M_01" ID="{2A4B5C22-CA03-4B85-9C72-5D88671A1A4B}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Idle_Voice_OS_M_01.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="338287839"/>
+												<MediaID ID="338287840"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -709,9 +709,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Idle_Voice_OS_M_02" ID="{28A60CD8-ED72-4AC6-8D3B-F507485217A1}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Idle_Voice_OS_M_02.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="667914301"/>
+												<MediaID ID="667914302"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -731,9 +731,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Idle_Voice_OS_M_03" ID="{B617FC18-4587-4753-852E-50DCFA6AEFF0}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Idle_Voice_OS_M_03.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="166708724"/>
+												<MediaID ID="166708725"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -753,9 +753,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Idle_Voice_OS_M_04" ID="{AB52C691-4C8E-4E9A-8FE7-2B987E256C5C}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Idle_Voice_OS_M_04.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="399690406"/>
+												<MediaID ID="399690407"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -775,9 +775,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Idle_Voice_OS_M_05" ID="{08452311-3AF9-47B4-A7A5-00D92459551F}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Idle_Voice_OS_M_05.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="917542417"/>
+												<MediaID ID="917542418"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -797,9 +797,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Idle_Voice_OS_M_06" ID="{1314AA69-2F54-4404-863E-21723FCD388A}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Idle_Voice_OS_M_06.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="472914576"/>
+												<MediaID ID="472914577"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -887,9 +887,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Grunt_Voice_OS_M_01" ID="{44A810F8-F783-4A0A-95A5-259841228F96}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Grunt_Voice_OS_M_01.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="527255614"/>
+												<MediaID ID="527255615"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -909,9 +909,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Grunt_Voice_OS_M_02" ID="{FF866D18-8A84-449C-B1B2-01C98B6B6972}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Grunt_Voice_OS_M_02.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="445202296"/>
+												<MediaID ID="445202297"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -931,9 +931,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Grunt_Voice_OS_M_03" ID="{8E4A68D3-D014-43F1-87B0-B8DCE5C8178B}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Grunt_Voice_OS_M_03.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="883016035"/>
+												<MediaID ID="883016036"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -953,9 +953,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Grunt_Voice_OS_M_04" ID="{9654AF74-EEFF-4651-AF74-A0A772E86EA7}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Grunt_Voice_OS_M_04.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="721150043"/>
+												<MediaID ID="721150044"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -975,9 +975,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Grunt_Voice_OS_M_05" ID="{7C65270A-BF29-4DE6-880F-ED5E32DCEDC6}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Grunt_Voice_OS_M_05.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="827053954"/>
+												<MediaID ID="827053955"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -997,9 +997,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Grunt_Voice_OS_M_06" ID="{6A987DCB-F51C-4CEC-B0F3-54C00F0C115A}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Grunt_Voice_OS_M_06.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="383705014"/>
+												<MediaID ID="383705015"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1076,9 +1076,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Death_Voice_OS_M_01" ID="{41A4B9C0-E77C-4A24-A786-EC44FDF283B2}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Death_Voice_OS_M_01.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="511743388"/>
+												<MediaID ID="773586119"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1098,9 +1098,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Death_Voice_OS_M_02" ID="{43DD1C09-C547-4920-819D-471EA19DF0C5}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Death_Voice_OS_M_02.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="568997807"/>
+												<MediaID ID="399931571"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1120,9 +1120,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Death_Voice_OS_M_03" ID="{0B527F0C-CF50-4005-8698-289E5662E332}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Death_Voice_OS_M_03.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1069908598"/>
+												<MediaID ID="592092355"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1142,9 +1142,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Death_Voice_OS_M_04" ID="{425EB6B5-862C-4FAD-914C-44F8230C3E5F}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Death_Voice_OS_M_04.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="997648726"/>
+												<MediaID ID="220851411"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1164,9 +1164,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Death_Voice_OS_M_05" ID="{951B673D-A57C-404B-8EDD-CE7ED8B0257B}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Death_Voice_OS_M_05.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="942912290"/>
+												<MediaID ID="218011624"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1186,9 +1186,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Chomper_Death_Voice_OS_M_06" ID="{35479E41-DE4D-4697-8427-419ADD74DC89}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Chomper_Death_Voice_OS_M_06.wav</AudioFile>
+											<AudioFile>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="827713731"/>
+												<MediaID ID="223890823"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

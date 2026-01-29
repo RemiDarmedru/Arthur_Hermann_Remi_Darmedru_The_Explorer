@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" SchemaVersion="110" RootDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" ParentDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}">
 	<AudioObjects>
-		<WorkUnit Name="ENNEMIES_WU" ID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" OwnerID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" PersistMode="Nested">
+		<WorkUnit Name="ENNEMIES_WU" ID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" OwnerID="{F98BDA4D-DA5D-428C-8D41-6B956BB7DD90}" PersistMode="Nested">
 			<ChildrenList>
 				<WorkUnit Name="CHOMPER_WU" ID="{A7B38114-71CD-4E32-8C0C-196D27B67942}" PersistMode="Reference"/>
 				<WorkUnit Name="GRENADIER_WU" ID="{F2191850-FB49-4E82-8F9D-D96306BF2027}" PersistMode="Reference"/>

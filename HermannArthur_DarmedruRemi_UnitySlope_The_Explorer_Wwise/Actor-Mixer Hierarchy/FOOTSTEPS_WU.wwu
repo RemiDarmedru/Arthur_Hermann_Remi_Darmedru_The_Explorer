@@ -4,6 +4,13 @@
 		<WorkUnit Name="FOOTSTEPS_WU" ID="{F07CC0FD-1AAF-4495-8590-68C5B7EFFFB4}" OwnerID="{B78EDA3A-FADD-4252-9307-8F445DF7D8B4}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="FS_MC_AM" ID="{112775B9-6513-49FF-8033-B11D2DC065B0}" ShortID="403700128">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>

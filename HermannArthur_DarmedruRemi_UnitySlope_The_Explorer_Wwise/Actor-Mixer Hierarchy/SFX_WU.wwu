@@ -7,8 +7,20 @@
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>
-				<WorkUnit Name="ENNEMIES_WU" ID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" PersistMode="Reference"/>
-				<WorkUnit Name="GPE_WU" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" PersistMode="Reference"/>
+				<ActorMixer Name="SFX_AM" ID="{F98BDA4D-DA5D-428C-8D41-6B956BB7DD90}" ShortID="110310341">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{037CDDFF-2C60-415C-995E-20527CE6E8F7}" WorkUnitID="{8BA87EA0-259A-4CEB-AEF1-5AD2486A8345}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<WorkUnit Name="GPE_WU" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" PersistMode="Reference"/>
+						<WorkUnit Name="ENNEMIES_WU" ID="{3DF574F7-E86E-4236-8D7D-1F8B49417C55}" PersistMode="Reference"/>
+					</ChildrenList>
+				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -134,6 +134,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_FL_MC_Roll" ID="{DDB8CFFB-B75C-4731-8D4B-0D170A306606}">
+					<ChildrenList>
+						<Action Name="" ID="{A68E25FE-C016-43BB-A96F-83D4E1217F07}" ShortID="605045138">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FL_MC_Roll" ID="{08A4E467-EB66-4D26-BE13-3EFF96AA1BCD}" WorkUnitID="{BA8A5E16-E4FC-4286-8BCD-36EB26C659CF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

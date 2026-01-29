@@ -54,9 +54,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_Range_Attack2" ID="{02769275-9785-4925-B76C-2FDDC7782046}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_Range_Attack2.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_Range_Attack2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="40233508"/>
+												<MediaID ID="40233509"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -88,9 +88,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_Range_Attack" ID="{F3560DF1-BCAE-4F23-B28C-2CD01676AD96}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_Range_Attack.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_Range_Attack.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="976938898"/>
+												<MediaID ID="976938899"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -150,9 +150,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_Melee_Attack_01" ID="{CF41D404-4982-4C01-8C72-32060F012B33}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_Melee_Attack_01.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_Melee_Attack_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="679938515"/>
+												<MediaID ID="679938516"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -212,9 +212,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_Close_Range_Attack" ID="{A2C3C30C-0F5A-43C1-936A-EAED80B35699}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_Close_Range_Attack.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_Close_Range_Attack.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="118583458"/>
+												<MediaID ID="118583459"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -279,9 +279,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_Idle_ST_LP" ID="{2F915987-EAD1-4CF5-9E39-D2666E1EE0E5}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_Idle_ST_LP.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_Idle_ST_LP.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="222285976"/>
+												<MediaID ID="222285977"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -341,9 +341,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_Hit" ID="{E9CC4A41-F0B0-47F6-A351-48905FAEEA96}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_Hit.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_Hit.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="581112674"/>
+												<MediaID ID="581112675"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -422,9 +422,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_01" ID="{BDBABC08-6FD0-4CFE-A4A4-A30155DEFB63}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_01.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="246466675"/>
+												<MediaID ID="246466676"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -444,9 +444,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_02" ID="{1288F773-ED0E-4CA5-9770-D5A8B2C34763}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_02.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="87219660"/>
+												<MediaID ID="87219661"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -466,9 +466,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_03" ID="{83BD00B5-B87D-4F4B-88AE-7B8E919237B0}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_03.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_03.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="608407324"/>
+												<MediaID ID="608407325"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -488,9 +488,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_04" ID="{E48A11F7-1C90-472B-B1DA-BFBE87A623E2}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_04.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_04.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1052001747"/>
+												<MediaID ID="1052001748"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -510,9 +510,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_05" ID="{3D24C387-C801-461E-852C-E9569454F0CD}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_05.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_05.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1018593062"/>
+												<MediaID ID="1018593063"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -532,9 +532,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_06" ID="{08446012-0B74-4386-BCA6-F35DB0972FF1}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_06.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_06.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="523682446"/>
+												<MediaID ID="523682447"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -554,9 +554,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_07" ID="{ACCB52F7-DAE2-4033-B29A-48236CF4015E}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_07.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_07.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="738879795"/>
+												<MediaID ID="738879796"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -576,9 +576,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Grenadier_FS_Walk_08" ID="{80616CAC-DFB1-4ACC-A26F-B0AB65F348AA}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Grenadier_FS_Walk_08.wav</AudioFile>
+											<AudioFile>SFX\GRENADIER\SFX_Grenadier_FS_Walk_08.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="141502614"/>
+												<MediaID ID="141502615"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

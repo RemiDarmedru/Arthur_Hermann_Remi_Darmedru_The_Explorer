@@ -45,9 +45,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="UI_Info_Zone_In_ST" ID="{4601FCBD-8347-4535-85D2-874BB22E80A6}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Info_Zone_In_ST.wav</AudioFile>
+													<AudioFile>UI\UI_Info_Zone_In_ST.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="935930100"/>
+														<MediaID ID="935930101"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -98,9 +98,9 @@
 											<ChildrenList>
 												<AudioFileSource Name="UI_Info_Zone_Out_ST" ID="{32448D2B-0A5F-47E7-B438-ACF538FE6DA8}">
 													<Language>SFX</Language>
-													<AudioFile>UI_Info_Zone_Out_ST.wav</AudioFile>
+													<AudioFile>UI\UI_Info_Zone_Out_ST.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="956031463"/>
+														<MediaID ID="956031464"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>

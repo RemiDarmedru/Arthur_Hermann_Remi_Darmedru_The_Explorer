@@ -7,6 +7,7 @@ public class CS_AudioCustomEvent_Ellen : MonoBehaviour
     public AK.Wwise.Event MC_FT;
     public AK.Wwise.Event MC_JUMP;
     public AK.Wwise.Event MC_LAND;
+    public AK.Wwise.Event MC_ROLL;
     public AK.Wwise.Event MC_COMBO_1;
     public AK.Wwise.Event MC_COMBO_2;
     public AK.Wwise.Event MC_COMBO_3;
@@ -62,6 +63,12 @@ public class CS_AudioCustomEvent_Ellen : MonoBehaviour
         }
     }
 
+    public void MC_ROLL_Play()
+    {
+        DetectGroundMaterials();
+        MC_ROLL.Post(AudioSource);
+    }
+    
     public void MC_COMBO_1_Play()
     {
         MC_COMBO_1.Post(AudioSource);

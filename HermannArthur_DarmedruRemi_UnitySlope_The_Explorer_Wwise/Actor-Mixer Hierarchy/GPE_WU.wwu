@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" SchemaVersion="110" RootDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" ParentDocumentID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}">
 	<AudioObjects>
-		<WorkUnit Name="GPE_WU" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" OwnerID="{E95934C8-507E-4F2B-964E-3BFC937C64F0}" PersistMode="Nested">
+		<WorkUnit Name="GPE_WU" ID="{9C0E712F-B4F9-4CBC-A276-883D7E5B2745}" OwnerID="{F98BDA4D-DA5D-428C-8D41-6B956BB7DD90}" PersistMode="Nested">
 			<ChildrenList>
 				<ActorMixer Name="GPE_AM" ID="{6A938BFE-1CF6-44AD-B90B-F18BA35CC57A}" ShortID="805111683">
 					<ReferenceList>

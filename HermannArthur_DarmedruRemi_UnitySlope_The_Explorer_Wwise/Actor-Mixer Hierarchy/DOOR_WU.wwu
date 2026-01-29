@@ -35,9 +35,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Door_Open_ST" ID="{A4887088-859B-40DB-9171-E0E6988DC020}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Door_Open_ST.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Door_Open_ST.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="100798765"/>
+												<MediaID ID="100798766"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -69,9 +69,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Door_Open_ST_02" ID="{437A2EB0-34CE-4C3C-AC97-73B17E237C50}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Door_Open_ST_02.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Door_Open_ST_02.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="88136160"/>
+												<MediaID ID="88136161"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

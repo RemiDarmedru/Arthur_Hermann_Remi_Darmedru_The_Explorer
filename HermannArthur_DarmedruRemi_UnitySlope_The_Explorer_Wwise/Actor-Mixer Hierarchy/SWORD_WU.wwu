@@ -49,16 +49,16 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="FX_Sword_Idle_LP_ST" ID="{4E4ACF09-9C0B-4FA3-B07A-203DE54D2BB9}">
+										<AudioFileSource Name="SFX_Sword_Idle_LP_ST" ID="{4E4ACF09-9C0B-4FA3-B07A-203DE54D2BB9}">
 											<Language>SFX</Language>
-											<AudioFile>FX_Sword_Idle_LP_ST.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Sword_Idle_LP_ST.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="129508183"/>
+												<MediaID ID="129508185"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="FX_Sword_Idle_LP_ST" ID="{4E4ACF09-9C0B-4FA3-B07A-203DE54D2BB9}" Platform="Linked"/>
+										<ActiveSource Name="SFX_Sword_Idle_LP_ST" ID="{4E4ACF09-9C0B-4FA3-B07A-203DE54D2BB9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -105,9 +105,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Sword_Take_ST_01" ID="{691325C6-82B3-404D-8D24-92E2682D77CF}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Sword_Take_ST_01.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Sword_Take_ST_01.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="365421460"/>
+												<MediaID ID="365421461"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

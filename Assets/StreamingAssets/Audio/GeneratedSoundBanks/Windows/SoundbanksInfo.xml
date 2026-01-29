@@ -13,7 +13,7 @@
 			<ShortName>FOLEY_SB</ShortName>
 			<Path>FOLEY_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7FC686C7-38A3-E377-251E-0F44BD8C4A4C}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B5D75235-E592-7254-EEE8-EB95748A17E0}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -26,8 +26,8 @@
 				<Bus Id="247557814" Name="FOLEY"/>
 				<Bus Id="393239870" Name="SFX"/>
 				<Bus Id="1117531639" Name="AMB"/>
+				<Bus Id="1551306167" Name="UI"/>
 				<Bus Id="1685527061" Name="MC"/>
-				<Bus Id="2036644783" Name="UI_AB"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 				<Bus Id="3991942870" Name="MUSIC"/>
 			</Busses>
@@ -58,75 +58,79 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1734647573" Type="User" Language="SFX" Hash="{8344150B-4552-719F-8CAB-DD0A5389AED1}">
+		<SoundBank Id="1734647573" Type="User" Language="SFX" Hash="{9A5FB41E-E57C-4350-6D23-051E9C0FC91D}">
 			<ShortName>UI_SB</ShortName>
 			<Path>UI_SB.bnk</Path>
 			<Media>
-				<File Id="271212262" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Menu_Close_ST.wav</ShortName>
-					<CachePath>SFX/UI_Menu_Close_ST_10C4C929.wem</CachePath>
+				<File Id="271212263" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Menu_Close_ST.wav</ShortName>
+					<CachePath>SFX/UI/UI_Menu_Close_ST_10C4C929.wem</CachePath>
 				</File>
-				<File Id="357575756" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Menu_Click_ST.wav</ShortName>
-					<CachePath>SFX/UI_Menu_Click_ST_10C4C929.wem</CachePath>
+				<File Id="357575757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Menu_Click_ST.wav</ShortName>
+					<CachePath>SFX/UI/UI_Menu_Click_ST_10C4C929.wem</CachePath>
 				</File>
-				<File Id="364923981" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Menu_Hover_Button_ST.wav</ShortName>
-					<CachePath>SFX/UI_Menu_Hover_Button_ST_10C4C929.wem</CachePath>
+				<File Id="364923982" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Menu_Hover_Button_ST.wav</ShortName>
+					<CachePath>SFX/UI/UI_Menu_Hover_Button_ST_10C4C929.wem</CachePath>
 				</File>
-				<File Id="397663416" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Pause_OS_ST_01.wav</ShortName>
-					<CachePath>SFX/UI_Pause_OS_ST_01_10C4C929.wem</CachePath>
+				<File Id="397663417" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Pause_OS_ST_01.wav</ShortName>
+					<CachePath>SFX/UI/UI_Pause_OS_ST_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="935930100" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Info_Zone_In_ST.wav</ShortName>
-					<CachePath>SFX/UI_Info_Zone_In_ST_10C4C929.wem</CachePath>
+				<File Id="935930101" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Info_Zone_In_ST.wav</ShortName>
+					<CachePath>SFX/UI/UI_Info_Zone_In_ST_10C4C929.wem</CachePath>
 				</File>
-				<File Id="956031463" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>UI_Info_Zone_Out_ST.wav</ShortName>
-					<CachePath>SFX/UI_Info_Zone_Out_ST_10C4C929.wem</CachePath>
+				<File Id="956031464" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>UI\UI_Info_Zone_Out_ST.wav</ShortName>
+					<CachePath>SFX/UI/UI_Info_Zone_Out_ST_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="3672787703" Name="Play_Info_Zone_In" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
 					<MediaRefs>
-						<MediaRef Id="935930100"/>
+						<MediaRef Id="935930101"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2396550282" Name="Play_Info_Zone_Out" DurationType="OneShot" DurationMin="0.8" DurationMax="0.8">
 					<MediaRefs>
-						<MediaRef Id="956031463"/>
+						<MediaRef Id="956031464"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2709512125" Name="Play_MenuClose" DurationType="OneShot" DurationMin="1.4333333" DurationMax="1.4333333">
 					<MediaRefs>
-						<MediaRef Id="271212262"/>
+						<MediaRef Id="271212263"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="119142231" Name="Play_MenuOpen" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<MediaRefs>
-						<MediaRef Id="397663416"/>
+						<MediaRef Id="397663417"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1615720664" Name="Play_UIClick" DurationType="OneShot" DurationMin="0.15914027" DurationMax="0.17454903">
 					<MediaRefs>
-						<MediaRef Id="357575756"/>
+						<MediaRef Id="357575757"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2502251926" Name="Play_UIHover" DurationType="OneShot" DurationMin="0.09548416" DurationMax="0.104729414">
 					<MediaRefs>
-						<MediaRef Id="364923981"/>
+						<MediaRef Id="364923982"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{BB4E300A-47A2-9BEE-A158-0CDFD84EC708}">
+		<SoundBank Id="1956625499" Type="User" Language="SFX" Hash="{58F11D6F-C842-1F78-D15D-36FD3D9A2DA1}">
 			<ShortName>MC_SB</ShortName>
 			<Path>MC_SB.bnk</Path>
 			<Media>
 				<File Id="10029418" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Land_Rock_06.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Land_Rock_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="16182016" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_08.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="19872710" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Grass_09.wav</ShortName>
@@ -147,6 +151,10 @@
 				<File Id="30257861" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Walk_Cloth_06.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Walk_Cloth_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="33356281" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_01.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="40811189" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Grass_11.wav</ShortName>
@@ -192,6 +200,14 @@
 					<ShortName>SFX\MC\FL_MC_Land_Mud_01.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Land_Mud_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="110443970" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_09.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="112053879" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FOL_MC_Roll_Mud.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FOL_MC_Roll_Mud_10C4C929.wem</CachePath>
+				</File>
 				<File Id="121474332" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Land_Rock_07.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Land_Rock_07_10C4C929.wem</CachePath>
@@ -204,13 +220,25 @@
 					<ShortName>SFX\MC\FL_MC_Jump_Mud_11.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Jump_Mud_11_10C4C929.wem</CachePath>
 				</File>
+				<File Id="141131583" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_02.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="142072901" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Grass_06.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="143214603" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_11.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_11_10C4C929.wem</CachePath>
+				</File>
 				<File Id="151929244" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Jump_Mud_05.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Jump_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="156189722" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_06.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_06_10C4C929.wem</CachePath>
 				</File>
 				<File Id="158251660" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_04.wav</ShortName>
@@ -231,6 +259,10 @@
 				<File Id="175581394" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Jump_Rock_03.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Jump_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="176630160" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_08.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_08_10C4C929.wem</CachePath>
 				</File>
 				<File Id="183283266" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Land_Rock_12.wav</ShortName>
@@ -292,9 +324,17 @@
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_09.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Mud_09_10C4C929.wem</CachePath>
 				</File>
+				<File Id="314234563" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_12.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_12_10C4C929.wem</CachePath>
+				</File>
 				<File Id="315604016" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_05.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Mud_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="318402923" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_10.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="322924904" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Combo_Cloth_08.wav</ShortName>
@@ -336,6 +376,10 @@
 					<ShortName>SFX\MC\FS_MC_Walk_Rock_06.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Rock_06_10C4C929.wem</CachePath>
 				</File>
+				<File Id="381780259" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_06.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_06_10C4C929.wem</CachePath>
+				</File>
 				<File Id="390913087" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Jump_Mud_08.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Jump_Mud_08_10C4C929.wem</CachePath>
@@ -347,6 +391,10 @@
 				<File Id="406429632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_08.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Mud_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="420318042" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_04.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_04_10C4C929.wem</CachePath>
 				</File>
 				<File Id="430724973" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Land_Mud_08.wav</ShortName>
@@ -372,6 +420,10 @@
 					<ShortName>SFX\MC\FS_MC_Walk_Rock_04.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Rock_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="457589733" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_01.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="462139775" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Grass_11.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Grass_11_10C4C929.wem</CachePath>
@@ -387,6 +439,10 @@
 				<File Id="500740923" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Rock_12.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Rock_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="508993229" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_05.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_05_10C4C929.wem</CachePath>
 				</File>
 				<File Id="513505413" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_11.wav</ShortName>
@@ -416,6 +472,14 @@
 					<ShortName>SFX\MC\FS_MC_Run_Rock_05.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Rock_05_10C4C929.wem</CachePath>
 				</File>
+				<File Id="547171888" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_11.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="548537339" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FOL_MC_Roll_Rock.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FOL_MC_Roll_Rock_10C4C929.wem</CachePath>
+				</File>
 				<File Id="549342487" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Grass_04.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Grass_04_10C4C929.wem</CachePath>
@@ -431,6 +495,10 @@
 				<File Id="550964610" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Land_Rock_03.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Land_Rock_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="558911580" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_03.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="560901259" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_07.wav</ShortName>
@@ -456,9 +524,17 @@
 					<ShortName>SFX\MC\FS_MC_Run_Grass_08.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Grass_08_10C4C929.wem</CachePath>
 				</File>
+				<File Id="580123988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_07.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_07_10C4C929.wem</CachePath>
+				</File>
 				<File Id="580326610" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Combo_Cloth_04.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Combo_Cloth_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="582233089" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_10.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_10_10C4C929.wem</CachePath>
 				</File>
 				<File Id="585535759" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_06.wav</ShortName>
@@ -492,6 +568,10 @@
 					<ShortName>SFX\MC\FS_MC_Walk_Grass_07.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Grass_07_10C4C929.wem</CachePath>
 				</File>
+				<File Id="634387242" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_07.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_07_10C4C929.wem</CachePath>
+				</File>
 				<File Id="643560212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Rock_08.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Walk_Rock_08_10C4C929.wem</CachePath>
@@ -515,6 +595,10 @@
 				<File Id="663926226" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Mud_09.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Mud_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665119197" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_03.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_03_10C4C929.wem</CachePath>
 				</File>
 				<File Id="676486654" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Mud_01.wav</ShortName>
@@ -552,6 +636,10 @@
 					<ShortName>SFX\MC\FL_MC_Combo_Cloth_10.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Combo_Cloth_10_10C4C929.wem</CachePath>
 				</File>
+				<File Id="733630755" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_04.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_04_10C4C929.wem</CachePath>
+				</File>
 				<File Id="744275708" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Walk_Cloth_08.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Walk_Cloth_08_10C4C929.wem</CachePath>
@@ -571,6 +659,10 @@
 				<File Id="765927953" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Mud_01.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Mud_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="772258506" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_02.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_02_10C4C929.wem</CachePath>
 				</File>
 				<File Id="785767958" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Jump_Rock_10.wav</ShortName>
@@ -595,6 +687,10 @@
 				<File Id="823493919" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Mud_11.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Mud_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="823750011" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FOL_MC_Roll_Grass.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FOL_MC_Roll_Grass_10C4C929.wem</CachePath>
 				</File>
 				<File Id="828617634" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\SFX_MC_Combo_2.wav</ShortName>
@@ -631,6 +727,10 @@
 				<File Id="883483054" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Run_Grass_12.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Grass_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="899640081" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_12.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_12_10C4C929.wem</CachePath>
 				</File>
 				<File Id="911122560" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FS_MC_Walk_Grass_05.wav</ShortName>
@@ -672,6 +772,10 @@
 					<ShortName>SFX\MC\FS_MC_Run_Grass_02.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FS_MC_Run_Grass_02_10C4C929.wem</CachePath>
 				</File>
+				<File Id="989196854" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Land_Grass_05.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Land_Grass_05_10C4C929.wem</CachePath>
+				</File>
 				<File Id="990459686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Jump_Rock_12.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Jump_Rock_12_10C4C929.wem</CachePath>
@@ -700,6 +804,10 @@
 					<ShortName>SFX\MC\FL_MC_Jump_Rock_04.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Jump_Rock_04_10C4C929.wem</CachePath>
 				</File>
+				<File Id="1064394033" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\MC\FL_MC_Jump_Grass_09.wav</ShortName>
+					<CachePath>SFX/SFX/MC/FL_MC_Jump_Grass_09_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1070791383" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>SFX\MC\FL_MC_Combo_Cloth_01.wav</ShortName>
 					<CachePath>SFX/SFX/MC/FL_MC_Combo_Cloth_01_10C4C929.wem</CachePath>
@@ -710,8 +818,47 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3729326061" Name="Play_MC_FOLEY_JUMP" DurationType="OneShot" DurationMin="0" DurationMax="0.6180201">
+				<Event Id="1263300747" Name="Play_FL_MC_Roll" DurationType="OneShot" DurationMin="0.35946682" DurationMax="0.55377316">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="4248645337"/>
+							<MediaRefs>
+								<MediaRef Id="823750011"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="2144363834"/>
+							<MediaRefs>
+								<MediaRef Id="548537339"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="712897245" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="112053879"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3729326061" Name="Play_MC_FOLEY_JUMP" DurationType="OneShot" DurationMin="0.34608722" DurationMax="0.6180201">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="16182016"/>
+								<MediaRef Id="33356281"/>
+								<MediaRef Id="143214603"/>
+								<MediaRef Id="156189722"/>
+								<MediaRef Id="508993229"/>
+								<MediaRef Id="558911580"/>
+								<MediaRef Id="582233089"/>
+								<MediaRef Id="634387242"/>
+								<MediaRef Id="733630755"/>
+								<MediaRef Id="772258506"/>
+								<MediaRef Id="899640081"/>
+								<MediaRef Id="1064394033"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="2144363834"/>
 							<MediaRefs>
@@ -748,8 +895,25 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2300528402" Name="Play_MC_FOLEY_LAND" DurationType="OneShot" DurationMin="0" DurationMax="0.3708121">
+				<Event Id="2300528402" Name="Play_MC_FOLEY_LAND" DurationType="OneShot" DurationMin="0.22023733" DurationMax="0.3708121">
 					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="4248645337" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="110443970"/>
+								<MediaRef Id="141131583"/>
+								<MediaRef Id="176630160"/>
+								<MediaRef Id="314234563"/>
+								<MediaRef Id="318402923"/>
+								<MediaRef Id="381780259"/>
+								<MediaRef Id="420318042"/>
+								<MediaRef Id="457589733"/>
+								<MediaRef Id="547171888"/>
+								<MediaRef Id="580123988"/>
+								<MediaRef Id="665119197"/>
+								<MediaRef Id="989196854"/>
+							</MediaRefs>
+						</SwitchContainer>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="3210335123" Id="2144363834"/>
 							<MediaRefs>
@@ -1009,360 +1173,360 @@
 			<ShortName>AMB_SB</ShortName>
 			<Path>AMB_SB.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{5914B054-44C3-A316-05CB-8D7EB8C08F87}">
+		<SoundBank Id="3896292454" Type="User" Language="SFX" Hash="{5CCE49D9-2344-0964-2758-48981D5A6390}">
 			<ShortName>SFX_SB</ShortName>
 			<Path>SFX_SB.bnk</Path>
 			<Media>
-				<File Id="728141" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_11.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_11_10C4C929.wem</CachePath>
-				</File>
-				<File Id="2393391" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Attack_Voice_OS_M_01.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="2883128" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Attack_Voice_OS_M_04.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="8264117" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Hit_Voice_OS_M_01.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="8725363" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_02.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="25907967" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Crystal_Activate_ST.wav</ShortName>
-					<CachePath>SFX/SFX_Crystal_Activate_ST_10C4C929.wem</CachePath>
-				</File>
-				<File Id="27317500" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_08.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="40233508" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_Range_Attack2.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_Range_Attack2_10C4C929.wem</CachePath>
-				</File>
-				<File Id="87219660" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_02.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="88136160" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Door_Open_ST_02.wav</ShortName>
-					<CachePath>SFX/SFX_Door_Open_ST_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="99757383" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Box_Break_ST_05.wav</ShortName>
-					<CachePath>SFX/SFX_Box_Break_ST_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="100798765" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Door_Open_ST.wav</ShortName>
-					<CachePath>SFX/SFX_Door_Open_ST_10C4C929.wem</CachePath>
-				</File>
-				<File Id="104043597" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_05.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="106535191" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_09.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_09_10C4C929.wem</CachePath>
-				</File>
-				<File Id="118583458" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_Close_Range_Attack.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_Close_Range_Attack_10C4C929.wem</CachePath>
-				</File>
-				<File Id="129508183" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FX_Sword_Idle_LP_ST.wav</ShortName>
-					<CachePath>SFX/FX_Sword_Idle_LP_ST_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="141502614" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_08.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="144285257" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_04.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="166708724" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Idle_Voice_OS_M_03.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="195243656" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_08.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_08_10C4C929.wem</CachePath>
-				</File>
-				<File Id="207820361" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_01.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="222285976" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_Idle_ST_LP.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_Idle_ST_LP_10C4C929.wem</CachePath>
-				</File>
-				<File Id="246466675" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_01.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="248830895" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Hit_Voice_OS_M_04.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="258794545" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_10.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_10_10C4C929.wem</CachePath>
-				</File>
-				<File Id="285063322" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_03.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="288882509" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_04.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="297408373" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Attack_Voice_OS_M_06.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="313145675" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_01.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="338287839" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Idle_Voice_OS_M_01.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="354881991" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_11.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_11_10C4C929.wem</CachePath>
-				</File>
-				<File Id="365421460" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Sword_Take_ST_01.wav</ShortName>
-					<CachePath>SFX/SFX_Sword_Take_ST_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="383705014" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_06.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="399690406" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Idle_Voice_OS_M_04.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="400220423" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_04.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="445202296" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_02.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="464235127" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Hit_Voice_OS_M_02.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="472914576" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Idle_Voice_OS_M_06.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="511743388" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Death_Voice_OS_M_01.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="523682446" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_06.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="527255614" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_01.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="532677665" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_07.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="568833669" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Hit_Voice_OS_M_06.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="568997807" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Death_Voice_OS_M_02.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="572995788" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_12.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_12_10C4C929.wem</CachePath>
-				</File>
-				<File Id="574147641" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Box_Break_ST_01.wav</ShortName>
-					<CachePath>SFX/SFX_Box_Break_ST_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="581112674" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_Hit.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_Hit_10C4C929.wem</CachePath>
-				</File>
-				<File Id="602091717" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_03.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="608407324" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_03.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="615347865" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_05.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="625149423" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Attack_Voice_OS_M_05.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="667914301" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Idle_Voice_OS_M_02.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="679284345" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Box_Break_ST_04.wav</ShortName>
-					<CachePath>SFX/SFX_Box_Break_ST_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="679938515" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_Melee_Attack_01.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_Melee_Attack_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="681810190" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_10.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_10_10C4C929.wem</CachePath>
-				</File>
-				<File Id="704691836" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Box_Break_ST_03.wav</ShortName>
-					<CachePath>SFX/SFX_Box_Break_ST_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="711432393" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_07.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="721150043" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_04.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="738879795" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_07.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_07_10C4C929.wem</CachePath>
-				</File>
-				<File Id="762447622" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Attack_Voice_OS_M_02.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="785104848" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_06.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="813564227" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_02.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="819474147" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chest_Open_ST.wav</ShortName>
-					<CachePath>SFX/SFX_Chest_Open_ST_10C4C929.wem</CachePath>
-				</File>
-				<File Id="825460426" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_03.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="827053954" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_05.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="827713731" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Death_Voice_OS_M_06.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="866477729" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_05.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="876288650" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Hit_Voice_OS_M_03.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="883016035" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Grunt_Voice_OS_M_03.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Grunt_Voice_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="885679426" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Hit_Voice_OS_M_05.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Hit_Voice_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="912015984" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_09.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_09_10C4C929.wem</CachePath>
-				</File>
-				<File Id="917542417" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Idle_Voice_OS_M_05.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Idle_Voice_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="942912290" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Death_Voice_OS_M_05.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="957412271" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_02.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="976938898" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_Range_Attack.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_Range_Attack_10C4C929.wem</CachePath>
-				</File>
-				<File Id="983699859" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Walk_Grass_OS_M_01.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Walk_Grass_OS_M_01_10C4C929.wem</CachePath>
-				</File>
-				<File Id="997648726" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Death_Voice_OS_M_04.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1018593062" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_05.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_05_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1030833827" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Box_Break_ST_02.wav</ShortName>
-					<CachePath>SFX/SFX_Box_Break_ST_02_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1038792725" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>FS_Chomper_Run_Grass_OS_M_06.wav</ShortName>
-					<CachePath>SFX/FS_Chomper_Run_Grass_OS_M_06_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1052001747" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Grenadier_FS_Walk_04.wav</ShortName>
-					<CachePath>SFX/SFX_Grenadier_FS_Walk_04_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1061426490" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Attack_Voice_OS_M_03.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Attack_Voice_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1069908598" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Death_Voice_OS_M_03.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Death_Voice_OS_M_03_10C4C929.wem</CachePath>
-				</File>
-				<File Id="1070465072" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>SFX_Chomper_Voice_Spotted_OS_M_06.wav</ShortName>
-					<CachePath>SFX/SFX_Chomper_Voice_Spotted_OS_M_06_10C4C929.wem</CachePath>
+				<File Id="728142" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_11.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="2393392" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Attack_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="2883129" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Attack_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="8264118" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Hit_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="8725364" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="25907968" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Crystal_Activate_ST.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Crystal_Activate_ST_10C4C929.wem</CachePath>
+				</File>
+				<File Id="27317501" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_08.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="40233509" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_Range_Attack2.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_Range_Attack2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="87219661" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_02.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="88136161" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Door_Open_ST_02.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Door_Open_ST_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="99757384" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Box_Break_ST_05.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Box_Break_ST_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="100798766" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Door_Open_ST.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Door_Open_ST_10C4C929.wem</CachePath>
+				</File>
+				<File Id="104043598" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="106535192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_09.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="118583459" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_Close_Range_Attack.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_Close_Range_Attack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="129508185" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Sword_Idle_LP_ST.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Sword_Idle_LP_ST_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="141502615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_08.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="144285258" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Voice_Spotted_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="166708725" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Idle_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="195243657" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_08.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_08_10C4C929.wem</CachePath>
+				</File>
+				<File Id="207820362" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Voice_Spotted_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="218011624" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Death_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="220851411" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Death_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="222285977" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_Idle_ST_LP.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_Idle_ST_LP_10C4C929.wem</CachePath>
+				</File>
+				<File Id="223890823" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Death_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="246466676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_01.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="248830896" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Hit_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="258794546" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_10.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="285063323" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="288882510" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="297408374" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Attack_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313145676" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="338287840" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Idle_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="354881992" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_11.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_11_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365421461" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Sword_Take_ST_01.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Sword_Take_ST_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="383705015" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Grunt_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399690407" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Idle_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="399931571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Death_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="400220424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="445202297" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Grunt_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="464235128" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Hit_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="472914577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Idle_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="523682447" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_06.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="527255615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Grunt_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="532677666" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_07.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="568833670" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Hit_Voice_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="572995789" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_12.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_12_10C4C929.wem</CachePath>
+				</File>
+				<File Id="574147642" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Box_Break_ST_01.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Box_Break_ST_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="581112675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_Hit.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_Hit_10C4C929.wem</CachePath>
+				</File>
+				<File Id="592092355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Death_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602091718" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="608407325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_03.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="615347866" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Voice_Spotted_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="625149424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Attack_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="667914302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Idle_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="679284346" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Box_Break_ST_04.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Box_Break_ST_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="679938516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_Melee_Attack_01.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_Melee_Attack_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="681810191" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_10.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_10_10C4C929.wem</CachePath>
+				</File>
+				<File Id="704691837" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Box_Break_ST_03.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Box_Break_ST_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="711432394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_07.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="721150044" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_04.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Grunt_Voice_OS_M_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="738879796" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_07.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_07_10C4C929.wem</CachePath>
+				</File>
+				<File Id="762447623" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Attack_Voice_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="773586119" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Death_Voice_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Death_Voice_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="785104849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="813564228" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Voice_Spotted_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="819474148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Chest_Open_ST.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Chest_Open_ST_10C4C929.wem</CachePath>
+				</File>
+				<File Id="825460427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Voice_Spotted_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="827053955" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Grunt_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="866477730" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="876288651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Hit_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="883016036" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Grunt_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Grunt_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="885679427" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Hit_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Hit_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="912015985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_09.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_09_10C4C929.wem</CachePath>
+				</File>
+				<File Id="917542418" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Idle_Voice_OS_M_05.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Idle_Voice_OS_M_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="957412272" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_02.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="976938899" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_Range_Attack.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_Range_Attack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="983699860" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Walk_Grass_OS_M_01.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Walk_Grass_OS_M_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1018593063" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_05.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_05_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1030833828" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GPE\SFX_Box_Break_ST_02.wav</ShortName>
+					<CachePath>SFX/SFX/GPE/SFX_Box_Break_ST_02_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1038792726" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\FS_Chomper_Run_Grass_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/FS_Chomper_Run_Grass_OS_M_06_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1052001748" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\GRENADIER\SFX_Grenadier_FS_Walk_04.wav</ShortName>
+					<CachePath>SFX/SFX/GRENADIER/SFX_Grenadier_FS_Walk_04_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1061426491" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Attack_Voice_OS_M_03.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Attack_Voice_OS_M_03_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1070465073" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SFX\CHOMPER\SFX_Chomper_Voice_Spotted_OS_M_06.wav</ShortName>
+					<CachePath>SFX/SFX/CHOMPER/SFX_Chomper_Voice_Spotted_OS_M_06_10C4C929.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
 				<Event Id="843996146" Name="Play_BoxBreak" DurationType="OneShot" DurationMin="1.0694122" DurationMax="1.5398704">
 					<MediaRefs>
-						<MediaRef Id="99757383"/>
-						<MediaRef Id="574147641"/>
-						<MediaRef Id="679284345"/>
-						<MediaRef Id="704691836"/>
-						<MediaRef Id="1030833827"/>
+						<MediaRef Id="99757384"/>
+						<MediaRef Id="574147642"/>
+						<MediaRef Id="679284346"/>
+						<MediaRef Id="704691837"/>
+						<MediaRef Id="1030833828"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="364247913" Name="Play_ChestOpen" DurationType="OneShot" DurationMin="1.4993788" DurationMax="1.6135054">
 					<MediaRefs>
-						<MediaRef Id="819474147"/>
+						<MediaRef Id="819474148"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1956494941" Name="Play_ChomperFootsteps" DurationType="OneShot" DurationMin="0.054542635" DurationMax="0.7424086">
@@ -1373,34 +1537,34 @@
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="2844442163" Id="712161704"/>
 									<MediaRefs>
-										<MediaRef Id="104043597"/>
-										<MediaRef Id="195243656"/>
-										<MediaRef Id="258794545"/>
-										<MediaRef Id="288882509"/>
-										<MediaRef Id="313145675"/>
-										<MediaRef Id="354881991"/>
-										<MediaRef Id="532677665"/>
-										<MediaRef Id="572995788"/>
-										<MediaRef Id="602091717"/>
-										<MediaRef Id="912015984"/>
-										<MediaRef Id="957412271"/>
-										<MediaRef Id="1038792725"/>
+										<MediaRef Id="104043598"/>
+										<MediaRef Id="195243657"/>
+										<MediaRef Id="258794546"/>
+										<MediaRef Id="288882510"/>
+										<MediaRef Id="313145676"/>
+										<MediaRef Id="354881992"/>
+										<MediaRef Id="532677666"/>
+										<MediaRef Id="572995789"/>
+										<MediaRef Id="602091718"/>
+										<MediaRef Id="912015985"/>
+										<MediaRef Id="957412272"/>
+										<MediaRef Id="1038792726"/>
 									</MediaRefs>
 								</SwitchContainer>
 								<SwitchContainer>
 									<SwitchValue GroupType="Switch" GroupId="2844442163" Id="2108779966" Default="true"/>
 									<MediaRefs>
-										<MediaRef Id="728141"/>
-										<MediaRef Id="8725363"/>
-										<MediaRef Id="27317500"/>
-										<MediaRef Id="106535191"/>
-										<MediaRef Id="285063322"/>
-										<MediaRef Id="400220423"/>
-										<MediaRef Id="681810190"/>
-										<MediaRef Id="711432393"/>
-										<MediaRef Id="785104848"/>
-										<MediaRef Id="866477729"/>
-										<MediaRef Id="983699859"/>
+										<MediaRef Id="728142"/>
+										<MediaRef Id="8725364"/>
+										<MediaRef Id="27317501"/>
+										<MediaRef Id="106535192"/>
+										<MediaRef Id="285063323"/>
+										<MediaRef Id="400220424"/>
+										<MediaRef Id="681810191"/>
+										<MediaRef Id="711432394"/>
+										<MediaRef Id="785104849"/>
+										<MediaRef Id="866477730"/>
+										<MediaRef Id="983699860"/>
 									</MediaRefs>
 								</SwitchContainer>
 							</Children>
@@ -1409,130 +1573,130 @@
 				</Event>
 				<Event Id="2408534138" Name="Play_ChomperVoiceAttack" DurationType="OneShot" DurationMin="1.0416964" DurationMax="2.2801945">
 					<MediaRefs>
-						<MediaRef Id="2393391"/>
-						<MediaRef Id="2883128"/>
-						<MediaRef Id="297408373"/>
-						<MediaRef Id="625149423"/>
-						<MediaRef Id="762447622"/>
-						<MediaRef Id="1061426490"/>
+						<MediaRef Id="2393392"/>
+						<MediaRef Id="2883129"/>
+						<MediaRef Id="297408374"/>
+						<MediaRef Id="625149424"/>
+						<MediaRef Id="762447623"/>
+						<MediaRef Id="1061426491"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="907198288" Name="Play_ChomperVoiceDeath" DurationType="OneShot" DurationMin="0.9443788" DurationMax="2.9284">
 					<MediaRefs>
-						<MediaRef Id="511743388"/>
-						<MediaRef Id="568997807"/>
-						<MediaRef Id="827713731"/>
-						<MediaRef Id="942912290"/>
-						<MediaRef Id="997648726"/>
-						<MediaRef Id="1069908598"/>
+						<MediaRef Id="218011624"/>
+						<MediaRef Id="220851411"/>
+						<MediaRef Id="223890823"/>
+						<MediaRef Id="399931571"/>
+						<MediaRef Id="592092355"/>
+						<MediaRef Id="773586119"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3590848876" Name="Play_ChomperVoiceGrunt" DurationType="OneShot" DurationMin="0.90641135" DurationMax="1.5780752">
 					<MediaRefs>
-						<MediaRef Id="383705014"/>
-						<MediaRef Id="445202296"/>
-						<MediaRef Id="527255614"/>
-						<MediaRef Id="721150043"/>
-						<MediaRef Id="827053954"/>
-						<MediaRef Id="883016035"/>
+						<MediaRef Id="383705015"/>
+						<MediaRef Id="445202297"/>
+						<MediaRef Id="527255615"/>
+						<MediaRef Id="721150044"/>
+						<MediaRef Id="827053955"/>
+						<MediaRef Id="883016036"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3605852193" Name="Play_ChomperVoiceHit" DurationType="OneShot" DurationMin="0.41854388" DurationMax="0.92040586">
 					<MediaRefs>
-						<MediaRef Id="8264117"/>
-						<MediaRef Id="248830895"/>
-						<MediaRef Id="464235127"/>
-						<MediaRef Id="568833669"/>
-						<MediaRef Id="876288650"/>
-						<MediaRef Id="885679426"/>
+						<MediaRef Id="8264118"/>
+						<MediaRef Id="248830896"/>
+						<MediaRef Id="464235128"/>
+						<MediaRef Id="568833670"/>
+						<MediaRef Id="876288651"/>
+						<MediaRef Id="885679427"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3764481148" Name="Play_ChomperVoiceIdle" DurationType="OneShot" DurationMin="0.77237725" DurationMax="1.9714736">
 					<MediaRefs>
-						<MediaRef Id="166708724"/>
-						<MediaRef Id="338287839"/>
-						<MediaRef Id="399690406"/>
-						<MediaRef Id="472914576"/>
-						<MediaRef Id="667914301"/>
-						<MediaRef Id="917542417"/>
+						<MediaRef Id="166708725"/>
+						<MediaRef Id="338287840"/>
+						<MediaRef Id="399690407"/>
+						<MediaRef Id="472914577"/>
+						<MediaRef Id="667914302"/>
+						<MediaRef Id="917542418"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="625416977" Name="Play_ChomperVoiceSpotted" DurationType="OneShot" DurationMin="0.6130539" DurationMax="1.5108244">
 					<MediaRefs>
-						<MediaRef Id="144285257"/>
-						<MediaRef Id="207820361"/>
-						<MediaRef Id="615347865"/>
-						<MediaRef Id="813564227"/>
-						<MediaRef Id="825460426"/>
-						<MediaRef Id="1070465072"/>
+						<MediaRef Id="144285258"/>
+						<MediaRef Id="207820362"/>
+						<MediaRef Id="615347866"/>
+						<MediaRef Id="813564228"/>
+						<MediaRef Id="825460427"/>
+						<MediaRef Id="1070465073"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2390169235" Name="Play_CrystalActivate" DurationType="OneShot" DurationMin="2.0666666" DurationMax="2.0666666">
 					<MediaRefs>
-						<MediaRef Id="25907967"/>
+						<MediaRef Id="25907968"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3197300806" Name="Play_DoorOpen" DurationType="OneShot" DurationMin="3.4" DurationMax="3.4">
 					<MediaRefs>
-						<MediaRef Id="100798765"/>
+						<MediaRef Id="100798766"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1162976532" Name="Play_DoorOpen02" DurationType="OneShot" DurationMin="4.733333" DurationMax="4.733333">
 					<MediaRefs>
-						<MediaRef Id="88136160"/>
+						<MediaRef Id="88136161"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="480351787" Name="Play_Grenadier_CloseRangeAttack" DurationType="OneShot" DurationMin="1.5189474" DurationMax="1.670838">
 					<MediaRefs>
-						<MediaRef Id="118583458"/>
+						<MediaRef Id="118583459"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3337034902" Name="Play_Grenadier_Death" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="965282871" Name="Play_Grenadier_Hit" DurationType="OneShot" DurationMin="0.8911855" DurationMax="0.9746555">
 					<MediaRefs>
-						<MediaRef Id="581112674"/>
+						<MediaRef Id="581112675"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1285304806" Name="Play_Grenadier_Idle" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="222285976"/>
+						<MediaRef Id="222285977"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1067947400" Name="Play_Grenadier_MeleeAttack" DurationType="OneShot" DurationMin="2.5144165" DurationMax="2.7419903">
 					<MediaRefs>
-						<MediaRef Id="679938515"/>
+						<MediaRef Id="679938516"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2585730847" Name="Play_Grenadier_RangeAttack" DurationType="OneShot" DurationMin="2.8333333" DurationMax="2.8333333">
 					<MediaRefs>
-						<MediaRef Id="976938898"/>
+						<MediaRef Id="976938899"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3187539455" Name="Play_Grenadier_RangeAttack2" DurationType="OneShot" DurationMin="2.8666666" DurationMax="2.8666666">
 					<MediaRefs>
-						<MediaRef Id="40233508"/>
+						<MediaRef Id="40233509"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1059979323" Name="Play_Grenadier_Walk" DurationType="OneShot" DurationMin="0.7660827" DurationMax="0.835419">
 					<MediaRefs>
-						<MediaRef Id="87219660"/>
-						<MediaRef Id="141502614"/>
-						<MediaRef Id="246466675"/>
-						<MediaRef Id="523682446"/>
-						<MediaRef Id="608407324"/>
-						<MediaRef Id="738879795"/>
-						<MediaRef Id="1018593062"/>
-						<MediaRef Id="1052001747"/>
+						<MediaRef Id="87219661"/>
+						<MediaRef Id="141502615"/>
+						<MediaRef Id="246466676"/>
+						<MediaRef Id="523682447"/>
+						<MediaRef Id="608407325"/>
+						<MediaRef Id="738879796"/>
+						<MediaRef Id="1018593063"/>
+						<MediaRef Id="1052001748"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="380326259" Name="Play_SwordIdle" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="129508183"/>
+						<MediaRef Id="129508185"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3866002016" Name="Play_SwordTake" DurationType="OneShot" DurationMin="1.8513664" DurationMax="2.0200958">
 					<MediaRefs>
-						<MediaRef Id="365421460"/>
+						<MediaRef Id="365421461"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3297221069" Name="Stop_SwordIdle" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -1552,5 +1716,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B29C3BD9-DE4B-C453-85CC-92505375D390}</FileHash>
+	<FileHash>{8B189C7A-431C-4CCC-D5FD-DF20482B1C5F}</FileHash>
 </SoundBanksInfo>

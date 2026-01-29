@@ -54,9 +54,9 @@
 									<ChildrenList>
 										<AudioFileSource Name="SFX_Crystal_Activate_ST" ID="{0E03AF23-28CA-4F85-87A4-75603C93459F}">
 											<Language>SFX</Language>
-											<AudioFile>SFX_Crystal_Activate_ST.wav</AudioFile>
+											<AudioFile>SFX\GPE\SFX_Crystal_Activate_ST.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="25907967"/>
+												<MediaID ID="25907968"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>

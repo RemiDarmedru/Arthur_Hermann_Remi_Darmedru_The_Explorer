@@ -8,12 +8,19 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="UI_AM" ID="{BDC8ACA6-3435-4953-824D-96FDCC2CFD9D}" ShortID="969257840">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9CD1BEE3-4E92-496A-BBAF-1EFDF1015C52}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="UI_AB" ID="{9693E250-E5DE-4F78-A754-1EFB69BC9193}" WorkUnitID="{847E7858-36B7-451A-AAF2-B66F8A7B7E53}"/>
+							<ObjectRef Name="UI" ID="{9693E250-E5DE-4F78-A754-1EFB69BC9193}" WorkUnitID="{847E7858-36B7-451A-AAF2-B66F8A7B7E53}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
